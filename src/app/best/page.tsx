@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AffiliateNote } from "@/components/AffiliateNote";
 import { hubs } from "@/data/hubs";
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function BestIndexPage() {
           you feel — apartment limits, senior comfort, pulling, or budget — and
           point to picks with clear skip advice.
         </p>
+        <AffiliateNote />
       </div>
       <div className="grid gap-4 md:grid-cols-2">
         {hubs.map((h) => (

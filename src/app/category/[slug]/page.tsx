@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { categories, getCategory } from "@/data/categories";
 import { getProductsByCategory } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
+import { AffiliateNote } from "@/components/AffiliateNote";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -47,6 +48,7 @@ export default async function CategoryPage({ params }: Props) {
             View all
           </Link>
         </p>
+        <AffiliateNote />
       </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((p) => (

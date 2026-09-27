@@ -13,15 +13,6 @@ export function Footer() {
             trees, feeders and fountains, walk gear, grooming, toys, travel,
             litter, training, and wellness accessories. Tradeoffs over hype.
           </p>
-          <p className="mt-4 text-xs leading-relaxed text-emerald-300/60">
-            {AFFILIATE_DISCLOSURE_SHORT}{" "}
-            <Link
-              href="/affiliate-disclosure"
-              className="underline underline-offset-2 hover:text-emerald-100"
-            >
-              Full disclosure
-            </Link>
-          </p>
         </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider text-emerald-300/50">
@@ -77,8 +68,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-emerald-900 py-4 text-center text-xs text-emerald-300/40">
-        © {new Date().getFullYear()} PetWorth. As an Amazon Associate we earn
-        from qualifying purchases. Tag: petworth20-20.
+        © {new Date().getFullYear()} PetWorth. {AFFILIATE_DISCLOSURE_SHORT}
       </div>
     </footer>
   );

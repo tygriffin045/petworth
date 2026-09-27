@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getHub, hubs } from "@/data/hubs";
 import { getProduct } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
+import { AffiliateNote } from "@/components/AffiliateNote";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -35,6 +36,7 @@ export default async function HubPage({ params }: Props) {
         </p>
         <h1 className="mt-2 font-serif text-4xl text-slate-900">{hub.title}</h1>
         <p className="mt-4 text-lg text-slate-600">{hub.description}</p>
+        <AffiliateNote className="mt-3" />
       </header>
 
       <div className="max-w-3xl space-y-4">
@@ -52,11 +54,6 @@ export default async function HubPage({ params }: Props) {
 
       <section>
         <h2 className="font-serif text-2xl text-slate-900">Picks for this use case</h2>
-        <p className="mt-1 text-sm text-slate-600">
-          Amazon links use tag petworth20-20. Prefer{" "}
-          <code className="rounded bg-slate-100 px-1 text-xs">/dp/ASIN</code>{" "}
-          CTAs when ASINs are verified.
-        </p>
         <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((p) => (
             <ProductCard key={p.slug} product={p} />

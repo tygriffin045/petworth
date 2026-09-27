@@ -39,9 +39,6 @@ export function AffiliateButton({
       >
         {"Check price on Amazon"}
       </a>
-      <p className="mt-2 text-xs text-slate-500">
-        Amazon Associate link · We may earn a commission at no extra cost to you
-      </p>
       <span className="sr-only">{productName}</span>
     </div>
   );

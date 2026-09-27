@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AffiliateNote } from "@/components/AffiliateNote";
 import { compares } from "@/data/compares";
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function CompareIndexPage() {
           Honest forks — not scorecards. Each table ends with a verdict in plain
           language.
         </p>
+        <AffiliateNote />
       </div>
       <div className="grid gap-4 md:grid-cols-2">
         {compares.map((c) => (

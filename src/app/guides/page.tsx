@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AffiliateNote } from "@/components/AffiliateNote";
 import { guides } from "@/data/guides";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function GuidesPage() {
           Longer reads with internal links to the products we mention — no
           invented brand scores.
         </p>
+        <AffiliateNote />
       </div>
       <div className="grid gap-4 md:grid-cols-2">
         {guides.map((g) => (

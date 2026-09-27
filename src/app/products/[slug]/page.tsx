@@ -9,6 +9,7 @@ import {
 } from "@/data/products";
 import { getCategory } from "@/data/categories";
 import { AffiliateButton } from "@/components/AffiliateButton";
+import { AffiliateNote } from "@/components/AffiliateNote";
 import { ProductCard } from "@/components/ProductCard";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
@@ -174,6 +175,7 @@ export default async function ProductPage({ params }: Props) {
             {product.name}
           </h1>
           <p className="mt-1 text-sm text-slate-500">{product.brand}</p>
+          <AffiliateNote />
           <p className="mt-4 text-lg text-slate-600">{product.tagline}</p>
           <p className="mt-4 text-xl font-semibold text-emerald-950">
             {product.priceBand}
@@ -187,8 +189,7 @@ export default async function ProductPage({ params }: Props) {
           />
           {product.asinPlaceholder && (
             <p className="mt-3 text-xs text-amber-800">
-              ASIN may be size-variant or best-effort — confirm the live listing;
-              search links still use tag petworth20-20.
+              ASIN may be size-variant or best-effort — confirm the live listing.
             </p>
           )}
         </div>

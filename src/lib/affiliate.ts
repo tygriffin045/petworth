@@ -28,4 +28,4 @@ export function getAffiliateUrl(target: string | AffiliateTarget): string {
 }
 
 export const AFFILIATE_DISCLOSURE_SHORT =
-  "As an Amazon Associate, PetWorth earns from qualifying purchases.";
+  "As an Amazon Associate I earn from qualifying purchases.";

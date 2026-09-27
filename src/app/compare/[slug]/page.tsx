@@ -5,6 +5,7 @@ import { compares, getCompare } from "@/data/compares";
 import { getProduct } from "@/data/products";
 import { getAffiliateUrl } from "@/lib/affiliate";
 import { ProductCard } from "@/components/ProductCard";
+import { AffiliateNote } from "@/components/AffiliateNote";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -36,6 +37,7 @@ export default async function ComparePage({ params }: Props) {
         </p>
         <h1 className="mt-2 font-serif text-4xl text-slate-900">{table.title}</h1>
         <p className="mt-4 text-lg text-slate-600">{table.intro}</p>
+        <AffiliateNote className="mt-3" />
       </header>
 
       <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
