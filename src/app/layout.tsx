@@ -17,7 +17,7 @@ const serif = Source_Serif_4({
   display: "swap",
 });
 
-const SITE_URL = "https://petworth.vercel.app";
+const SITE_URL = "https://pet.theworthguide.com";
 const SITE_TITLE = "PetWorth — Honest picks for happier pets";
 const SITE_DESCRIPTION =
   "Editorial pet gear picks for dogs and cats: beds and crates, cat trees, feeders and fountains, harnesses, grooming, toys, travel carriers, litter, training gear, and wellness accessories. Clear Amazon Associates disclosure — no invented scores.";

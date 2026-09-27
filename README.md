@@ -4,7 +4,7 @@ Editorial Amazon Associates picks for happier pets (dogs & cats).
 
 **Associates tag:** `petworth20-20`  
 **Link format:** `https://www.amazon.com/dp/{ASIN}?tag=petworth20-20`  
-**Intended live URL:** https://petworth.vercel.app
+**Live URL:** https://pet.theworthguide.com
 
 > Register `petworth20-20` in Amazon Associates before relying on attributed earnings. Until the tag is approved/registered, links still work for shoppers but may not credit the account.
 
@@ -34,7 +34,7 @@ npm run build
 1. Create a Vercel project named `petworth` from this repo/folder.
 2. Set env vars (see `.env.example`):
    - `NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG=petworth20-20`
-   - `NEXT_PUBLIC_SITE_URL=https://petworth.vercel.app`
+   - `NEXT_PUBLIC_SITE_URL=https://pet.theworthguide.com`
 3. Confirm the Associates tag is registered to your Amazon Associates account.
 4. After first deploy, spot-check affiliate links include `tag=petworth20-20`.
 

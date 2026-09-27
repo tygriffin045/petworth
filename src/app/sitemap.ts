@@ -6,7 +6,7 @@ import { hubs } from "@/data/hubs";
 import { compares } from "@/data/compares";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://petworth.vercel.app";
+  const base = "https://pet.theworthguide.com";
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
