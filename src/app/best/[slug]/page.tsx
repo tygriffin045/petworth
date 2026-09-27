@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getHub, hubs } from "@/data/hubs";
@@ -16,7 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const hub = getHub(slug);
   if (!hub) return { title: "Best for…" };
-  return { title: hub.title, description: hub.description };
+  return pageMetadata({
+    path: `/best/${slug}`,
+    title: hub.title,
+    description: hub.description,
+  });
 }
 
 export default async function HubPage({ params }: Props) {

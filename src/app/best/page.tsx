@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { hubs } from "@/data/hubs";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/best",
   title: "Best for… hubs",
   description:
     "High-conversion PetWorth hubs: apartment pets, seniors, leash pullers, and budget starter kits.",
-};
+});
 
 export default function BestIndexPage() {
   return (

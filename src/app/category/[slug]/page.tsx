@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getCategory } from "@/data/categories";
@@ -16,10 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const category = getCategory(slug);
   if (!category) return { title: "Category" };
-  return {
+  return pageMetadata({
+    path: `/category/${slug}`,
     title: category.name,
     description: category.description,
-  };
+  });
 }
 
 export default async function CategoryPage({ params }: Props) {

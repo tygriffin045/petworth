@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/affiliate-disclosure",
   title: "Affiliate disclosure",
   description:
     "PetWorth Amazon Associates disclosure — how affiliate links and the petworth20-20 tag work.",
-};
+});
 
 export default function AffiliateDisclosurePage() {
   return (

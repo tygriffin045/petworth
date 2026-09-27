@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { products } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
 import { AffiliateNote } from "@/components/AffiliateNote";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/products",
   title: "All products",
   description:
     "Browse PetWorth pet gear picks with best-for labels and clear Amazon Associate links.",
-};
+});
 
 export default function ProductsPage() {
   return (

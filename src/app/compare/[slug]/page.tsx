@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { compares, getCompare } from "@/data/compares";
@@ -17,7 +18,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const table = getCompare(slug);
   if (!table) return { title: "Compare" };
-  return { title: table.title, description: table.description };
+  return pageMetadata({
+    path: `/compare/${slug}`,
+    title: table.title,
+    description: table.description,
+  });
 }
 
 export default async function ComparePage({ params }: Props) {

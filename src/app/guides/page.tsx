@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { guides } from "@/data/guides";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/guides",
   title: "Buying guides",
   description:
     "PetWorth buying guides for dog beds, cat fountains, and harnesses vs collars for pullers.",
-};
+});
 
 export default function GuidesPage() {
   return (

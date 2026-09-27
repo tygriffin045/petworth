@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { categories } from "@/data/categories";
 import { getFeaturedProducts } from "@/data/products";
@@ -6,6 +7,10 @@ import { hubs } from "@/data/hubs";
 import { compares } from "@/data/compares";
 import { ProductCard } from "@/components/ProductCard";
 import { TrustStrip } from "@/components/TrustStrip";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const featured = getFeaturedProducts();

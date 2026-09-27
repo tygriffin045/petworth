@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { compares } from "@/data/compares";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/compare",
   title: "Compare",
   description:
     "Side-by-side PetWorth comparisons for dog beds, harnesses, cat fountains, and travel carriers.",
-};
+});
 
 export default function CompareIndexPage() {
   return (
