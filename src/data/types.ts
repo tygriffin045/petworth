@@ -66,4 +66,33 @@ export interface Guide {
   publishedAt: string;
   productSlugs: string[];
   sections: { heading: string; body: string }[];
+  /** Optional query-targeted <title>; falls back to `title`. */
+  seoTitle?: string;
+  /** Optional meta description; falls back to `description`. */
+  metaDescription?: string;
+  /** Top-of-page "quick picks" summary. */
+  quickPicks?: { label: string; productSlug: string; note: string }[];
+  /** Detailed product picks with pros/cons and who each suits. */
+  picks?: GuidePick[];
+  /** Short buying-criteria checklist. */
+  criteria?: { heading: string; body: string }[];
+  /** FAQ rendered on page and emitted as FAQPage JSON-LD. */
+  faqs?: { question: string; answer: string }[];
+  /** Existing category pages that should link to this guide. */
+  categorySlugs?: CategorySlug[];
+  /** Existing best-for hub pages that should link to this guide. */
+  hubSlugs?: string[];
+  updatedAt?: string;
+}
+
+export interface GuidePick {
+  productSlug: string;
+  heading: string;
+  verdict: string;
+  pros: string[];
+  cons: string[];
+  suits: string;
+  skip?: string;
+  /** Verified listing note, e.g. price/size seen on Amazon with the check date. */
+  checked?: string;
 }

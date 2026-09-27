@@ -213,7 +213,9 @@ export default function HomePage() {
           Longer reads with internal links to the products we mention.
         </p>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
-          {guides.map((g) => (
+          {[...guides]
+            .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+            .map((g) => (
             <Link
               key={g.slug}
               href={`/guides/${g.slug}`}

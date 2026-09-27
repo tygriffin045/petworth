@@ -8,7 +8,7 @@ export const metadata: Metadata = pageMetadata({
   path: "/guides",
   title: "Buying guides",
   description:
-    "PetWorth buying guides for dog beds, cat fountains, and harnesses vs collars for pullers.",
+    "PetWorth buying guides: KONG Classic vs Extreme, dog puzzle toys for boredom, cat scratchers for indoor cats, dog beds, cat fountains, and harnesses for pullers.",
 });
 
 export default function GuidesPage() {

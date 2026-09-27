@@ -6,6 +6,7 @@ import { categories, getCategory } from "@/data/categories";
 import { getProductsByCategory } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
 import { AffiliateNote } from "@/components/AffiliateNote";
+import { guides } from "@/data/guides";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -30,6 +31,9 @@ export default async function CategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const items = getProductsByCategory(slug);
+  const relatedGuides = guides.filter((g) =>
+    g.categorySlugs?.includes(category.slug),
+  );
 
   return (
     <div className="space-y-8">
@@ -52,6 +56,25 @@ export default async function CategoryPage({ params }: Props) {
         </p>
         <AffiliateNote />
       </div>
+      {relatedGuides.length > 0 && (
+        <section className="rounded-2xl border border-stone-200 bg-white p-5">
+          <h2 className="text-sm font-semibold uppercase tracking-wider text-emerald-700">
+            Buying guides
+          </h2>
+          <ul className="mt-2 space-y-1 text-sm">
+            {relatedGuides.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={`/guides/${g.slug}`}
+                  className="font-medium text-stone-900 underline-offset-2 hover:underline"
+                >
+                  {g.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((p) => (
           <ProductCard key={p.slug} product={p} />

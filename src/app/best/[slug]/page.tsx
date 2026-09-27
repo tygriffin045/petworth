@@ -6,6 +6,7 @@ import { getHub, hubs } from "@/data/hubs";
 import { getProduct } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
 import { AffiliateNote } from "@/components/AffiliateNote";
+import { guides } from "@/data/guides";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -32,6 +33,7 @@ export default async function HubPage({ params }: Props) {
   const items = hub.productSlugs
     .map((s) => getProduct(s))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
+  const relatedGuides = guides.filter((g) => g.hubSlugs?.includes(hub.slug));
 
   return (
     <div className="space-y-10">
@@ -65,6 +67,25 @@ export default async function HubPage({ params }: Props) {
           ))}
         </div>
       </section>
+
+      {relatedGuides.length > 0 && (
+        <section className="rounded-2xl border border-slate-200 bg-white p-5">
+          <h2 className="font-serif text-2xl text-slate-900">Related buying guides</h2>
+          <ul className="mt-3 space-y-2 text-sm">
+            {relatedGuides.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={`/guides/${g.slug}`}
+                  className="font-medium text-slate-900 underline underline-offset-2"
+                >
+                  {g.title}
+                </Link>
+                <span className="text-slate-600"> — {g.description}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <p className="text-sm text-slate-500">
         <Link href="/best" className="underline underline-offset-2">
