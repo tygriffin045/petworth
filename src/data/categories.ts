@@ -117,4 +117,11 @@ export const categories: Category[] = [
 
 export function getCategory(slug: string): Category | undefined {
   return categories.find((c) => c.slug === slug);
-}
+,
+  {
+    slug: "slow-feeders",
+    name: "Slow Feeders",
+    shortLabel: "Feeders",
+    description: "Bowls and puzzles that slow a dog that inhales dinner.",
+  },
+];
