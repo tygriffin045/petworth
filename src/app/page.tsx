@@ -55,6 +55,18 @@ export default function HomePage() {
       <TopRail />
 
       <section>
+        <h2 className="font-serif text-3xl text-stone-900">Vs reviews</h2>
+        <p className="mt-1 text-stone-600">Two products for the same pet problem, with the tradeoff spelled out.</p>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <a href="/compare/dog-beds" className="rounded-2xl border border-stone-200 bg-white p-5 hover:border-stone-400">Dog bed comparison</a>
+          <a href="/compare/harnesses" className="rounded-2xl border border-stone-200 bg-white p-5 hover:border-stone-400">Harness comparison</a>
+          <a href="/compare/cat-fountains" className="rounded-2xl border border-stone-200 bg-white p-5 hover:border-stone-400">Cat fountain comparison</a>
+          <a href="/compare/carriers" className="rounded-2xl border border-stone-200 bg-white p-5 hover:border-stone-400">Travel carrier comparison</a>
+        </div>
+      </section>
+
+
+      <section>
         <div className="flex items-end justify-between gap-4">
           <div>
             <h2 className="font-serif text-3xl text-stone-900">
