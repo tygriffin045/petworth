@@ -14,7 +14,8 @@ export type CategorySlug =
   | "bird-supplies"
   | "reptile-supplies"
   | "flea-tick-prevention"
-  | "puppy-kitten-starter";
+  | "puppy-kitten-starter"
+  | "slow-feeders";
 
 export type BudgetBand = "budget" | "mid" | "premium";
 
