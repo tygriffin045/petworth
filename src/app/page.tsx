@@ -6,6 +6,7 @@ import { guides } from "@/data/guides";
 import { hubs } from "@/data/hubs";
 import { compares } from "@/data/compares";
 import { ProductCard } from "@/components/ProductCard";
+import { TopRail } from "@/components/TopRail";
 import { TrustStrip } from "@/components/TrustStrip";
 
 export const metadata: Metadata = {
@@ -50,6 +51,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <TopRail />
 
       <section>
         <div className="flex items-end justify-between gap-4">
