@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-emerald-900/30 bg-emerald-950 text-emerald-100/80">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
         <div>
-          <p className="font-serif text-2xl text-[#f3f6f1]">PetWorth</p>
+          <p className="font-serif text-2xl text-[#f3f6f1]">Pet<span className="text-[#d4af37]">Worth</span></p>
           <p className="mt-2 text-sm text-emerald-200/70">
             Editorial pet gear picks for dogs and cats — beds and crates, cat
             trees, feeders and fountains, walk gear, grooming, toys, travel,
