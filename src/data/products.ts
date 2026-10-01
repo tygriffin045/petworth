@@ -1757,6 +1757,29 @@ export const products: Product[] = [
     amazonAsin: "B01MZG54L6",
     amazonQuery: "Kitty City XL 3 pack cardboard cat scratcher pads",
   },
+
+  {
+    slug: "outward-hound-slow-feeder",
+    name: "Outward Hound slow feeder bowl",
+    brand: "Outward Hound",
+    category: "slow-feeders",
+    tagline: "Maze bowl for a dog that inhales food",
+    summary: "A plastic maze that makes dinner take longer. Wash it. It will not fix a dog that guards food.",
+    priceBand: "About $15",
+    budget: "budget",
+    priceMin: 10,
+    priceMax: 20,
+    imageGradient: "from-stone-600 via-emerald-800 to-stone-800",
+    imageAlt: "Outward Hound slow feeder bowl",
+    featured: false,
+    amazonQuery: "Outward Hound Fun Feeder slow bowl",
+    pros: ["Cheap test", "Dishwasher safe on many listings", "Slows a fast eater"],
+    cons: ["Plastic holds smell", "Not for a dog that flips bowls", "Wrong size wastes food"],
+    whoItsFor: "Dogs that finish a bowl in under a minute.",
+    specs: [{ label: "Type", value: "Maze bowl" }],
+    relatedSlugs: [],
+  },
+
 ];
 export function getProduct(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
