@@ -1776,6 +1776,8 @@ export const products: Product[] = [
     pros: ["Cheap test", "Dishwasher safe on many listings", "Slows a fast eater"],
     cons: ["Plastic holds smell", "Not for a dog that flips bowls", "Wrong size wastes food"],
     whoItsFor: "Dogs that finish a bowl in under a minute.",
+    bestFor: "Best cheap slow feeder for fast eaters",
+    skipIf: "Your dog guards food or flips bowls. A maze bowl will not fix that.",
     specs: [{ label: "Type", value: "Maze bowl" }],
     relatedSlugs: [],
   },

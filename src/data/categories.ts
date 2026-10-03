@@ -113,11 +113,6 @@ export const categories: Category[] = [
     description:
       "Pads, teething chews, soft puppy KONGs, clickers, and first-week basics for new arrivals. Soft materials for baby teeth; size up as they grow; supervise everything chewable. Starter gear is temporary — plan replacements.",
   },
-];
-
-export function getCategory(slug: string): Category | undefined {
-  return categories.find((c) => c.slug === slug);
-,
   {
     slug: "slow-feeders",
     name: "Slow Feeders",
@@ -125,3 +120,7 @@ export function getCategory(slug: string): Category | undefined {
     description: "Bowls and puzzles that slow a dog that inhales dinner.",
   },
 ];
+
+export function getCategory(slug: string): Category | undefined {
+  return categories.find((c) => c.slug === slug);
+}
