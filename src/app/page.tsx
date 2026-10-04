@@ -8,6 +8,7 @@ import { compares } from "@/data/compares";
 import { ProductCard } from "@/components/ProductCard";
 import { TopRail } from "@/components/TopRail";
 import { TrustStrip } from "@/components/TrustStrip";
+import { AffiliateNote } from "@/components/AffiliateNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -35,6 +36,7 @@ export default function HomePage() {
             who each pick is for, and what we would skip. No invented brand
             scores.
           </p>
+          <AffiliateNote className="mt-3" />
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/products"
