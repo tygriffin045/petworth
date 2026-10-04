@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { categories } from "@/data/categories";
-import { AFFILIATE_DISCLOSURE_SHORT } from "@/lib/affiliate";
+
+const WORTH_SITES = [
+  ["The Worth Guide", "https://theworthguide.com/"],
+  ...["desk", "brew", "sleep", "tech", "car", "kitchen", "clean", "tool", "yard", "bag", "groom", "fit", "bath", "travel", "watch"].map(
+    (s) => [s[0].toUpperCase() + s.slice(1), `https://${s}.theworthguide.com/`],
+  ),
+].map(([label, href]) => ({ label, href }));
 
 export function Footer() {
   return (
@@ -67,8 +73,18 @@ export function Footer() {
           </ul>
         </div>
       </div>
+      <div className="mx-auto max-w-6xl border-t border-emerald-900 px-4 py-6 sm:px-6">
+        <p className="text-xs font-semibold uppercase tracking-wider text-emerald-300/50">More Worth Guide sites</p>
+        <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-emerald-200/70">
+          {WORTH_SITES.map((site) => (
+            <li key={site.href}>
+              <a href={site.href} className="hover:text-[#f3f6f1]">{site.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
       <div className="border-t border-emerald-900 py-4 text-center text-xs text-emerald-300/40">
-        © {new Date().getFullYear()} PetWorth. {AFFILIATE_DISCLOSURE_SHORT}
+        © {new Date().getFullYear()} PetWorth. We may earn a commission when you buy through links on this site. As an Amazon Associate I earn from qualifying purchases.
       </div>
     </footer>
   );
