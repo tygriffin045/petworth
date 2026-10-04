@@ -41,7 +41,6 @@ export const guides: Guide[] = [
     readingTime: "6 min read",
     publishedAt: "2026-07-02",
     productSlugs: [
-      "pioneer-pet-raindrop-fountain",
       "petsafe-drinkwell-platinum",
       "petlibro-automatic-feeder",
       "modkat-litter-box",

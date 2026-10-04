@@ -3,7 +3,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getCategory } from "@/data/categories";
-import { getProductsByCategory } from "@/data/products";
+import { getTopPicks } from "@/data/top10";
 import { ProductCard } from "@/components/ProductCard";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { guides } from "@/data/guides";
@@ -30,7 +30,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = getCategory(slug);
   if (!category) notFound();
 
-  const items = getProductsByCategory(slug);
+  const items = getTopPicks(slug);
   const relatedGuides = guides.filter((g) =>
     g.categorySlugs?.includes(category.slug),
   );
@@ -48,7 +48,7 @@ export default async function CategoryPage({ params }: Props) {
           {category.description}
         </p>
         <p className="mt-2 text-sm text-slate-500">
-          {items.length} product{items.length === 1 ? "" : "s"} · each card
+          Top {items.length} picks · each card
           carries a &quot;best for&quot; label ·{" "}
           <Link href="/products" className="underline underline-offset-2">
             View all

@@ -123,14 +123,6 @@ export const compares: CompareTable[] = [
     ],
     rows: [
       {
-        productSlug: "pioneer-pet-raindrop-fountain",
-        bestFor: "Single-cat starters",
-        loftOrFeel: "Compact flower flows",
-        cooling: "Frequent small cleans",
-        priceBand: "About $25–$40",
-        skipIf: "Large dogs share water",
-      },
-      {
         productSlug: "petsafe-drinkwell-platinum",
         bestFor: "Multi-pet / high volume",
         loftOrFeel: "Large reservoir",

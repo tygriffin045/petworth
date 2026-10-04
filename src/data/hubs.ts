@@ -22,7 +22,6 @@ export const hubs: Hub[] = [
     productSlugs: [
       "feandrea-cat-tree",
       "amazon-basics-puppy-training-pads",
-      "pioneer-pet-raindrop-fountain",
       "modkat-litter-box",
       "petsafe-scoopfree-litter-box",
       "kong-classic",
@@ -91,7 +90,6 @@ export const hubs: Hub[] = [
     productSlugs: [
       "midwest-puppy-starter-kit-medium",
       "furhaven-orthopedic-dog-bed",
-      "pioneer-pet-raindrop-fountain",
       "amazon-basics-puppy-training-pads",
       "rabbitgoo-no-pull-harness",
       "amazon-basics-puppy-training-pads",
