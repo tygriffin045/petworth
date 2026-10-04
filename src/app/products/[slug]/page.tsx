@@ -68,18 +68,6 @@ export default async function ProductPage({ params }: Props) {
     description: product.summary,
     brand: { "@type": "Brand", name: product.brand },
     ...(imageAbs ? { image: [imageAbs] } : {}),
-    // Only emit an Offer when we verified a price on Amazon.
-    ...(product.priceMin > 0
-      ? {
-          offers: {
-            "@type": "Offer",
-            url: productUrl,
-            priceCurrency: "USD",
-            price: String(product.priceMin || product.priceMax || 0),
-            availability: "https://schema.org/InStock",
-          },
-        }
-      : {}),
   };
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -182,9 +170,6 @@ export default async function ProductPage({ params }: Props) {
           <p className="mt-1 text-sm text-slate-500">{product.brand}</p>
           <AffiliateNote />
           <p className="mt-4 text-lg text-slate-600">{product.tagline}</p>
-          <p className="mt-4 text-xl font-semibold text-emerald-950">
-            {product.priceBand}
-          </p>
           <AffiliateButton
             className="mt-6"
             productSlug={product.slug}

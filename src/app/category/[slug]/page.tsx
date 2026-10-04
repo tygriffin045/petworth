@@ -7,6 +7,7 @@ import { getTopPicks } from "@/data/top10";
 import { ProductCard } from "@/components/ProductCard";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { guides } from "@/data/guides";
+import { BadgePicks } from "@/components/BadgePicks";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -56,6 +57,7 @@ export default async function CategoryPage({ params }: Props) {
         </p>
         <AffiliateNote />
       </div>
+      <BadgePicks category={slug} />
       {relatedGuides.length > 0 && (
         <section className="rounded-2xl border border-stone-200 bg-white p-5">
           <h2 className="text-sm font-semibold uppercase tracking-wider text-emerald-700">

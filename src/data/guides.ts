@@ -147,7 +147,7 @@ export const guides: Guide[] = [
         ],
         suits: "Most adult dogs, and anyone buying a first KONG.",
         skip: "Your dog has already damaged a red KONG. Go straight to the Extreme.",
-        checked: "Large was $13.96 on Amazon when we checked on Sep 27, 2026. Other sizes are on the same listing.",
+        checked: "We checked the Large size on Amazon on Sep 27, 2026. Other sizes are on the same listing. Check the current price on Amazon.",
       },
       {
         productSlug: "kong-extreme",
@@ -160,12 +160,12 @@ export const guides: Guide[] = [
         ],
         cons: [
           "Not indestructible. Some owners report determined dogs breaking one within days",
-          "Costs more than the Classic. KONG's own store starts it at $8.99 vs $7.99 for the Classic",
+          "Costs a little more than the Classic",
           "Our link opens on the XX-Large. Pick your dog's size on the listing",
         ],
         suits: "Dogs that chunk or split red KONGs, and big dogs with strong jaws.",
         skip: "Your dog is a gentle chewer or a senior with worn teeth. The Classic or KONG Senior is kinder on their mouth.",
-        checked: "XX-Large was $26.96 on Amazon when we checked on Sep 27, 2026. Smaller sizes are on the same listing.",
+        checked: "We checked the XX-Large size on Amazon on Sep 27, 2026. Other sizes are on the same listing. Check the current price on Amazon.",
       },
       {
         productSlug: "kong-puppy",
@@ -182,7 +182,7 @@ export const guides: Guide[] = [
         ],
         suits: "Puppies up to about 9 months and light chewers.",
         skip: "Your puppy is already gouging it. Move up to a Classic (or an Extreme) in the right size.",
-        checked: "Medium was $10.96 on Amazon when we checked on Sep 27, 2026.",
+        checked: "We checked the Medium size on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "west-paw-qwizl",
@@ -198,7 +198,7 @@ export const guides: Guide[] = [
           "You need chews sized to fit it",
         ],
         suits: "Dogs who find a KONG boring, and owners trying to make pricey chews last longer.",
-        checked: "Large was $26.95 on Amazon when we checked on Sep 27, 2026.",
+        checked: "We checked the Large size on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
     ],
     criteria: [
@@ -294,7 +294,7 @@ export const guides: Guide[] = [
         ],
         suits: "Dogs new to puzzles and fast eaters.",
         skip: "You have thin floors and downstairs neighbors.",
-        checked: "Large (for medium and large dogs) was $24.96 on Amazon when we checked on Sep 27, 2026.",
+        checked: "We checked the Large (for medium and large dogs) size on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "nina-ottosson-dog-tornado",
@@ -311,7 +311,7 @@ export const guides: Guide[] = [
           "Smart dogs learn it within a few sessions",
         ],
         suits: "Dogs who have figured out a Wobbler or KONG and need something new.",
-        checked: "$16.95 on Amazon when we checked on Sep 27, 2026.",
+        checked: "Checked on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "outward-hound-puzzle",
@@ -329,7 +329,7 @@ export const guides: Guide[] = [
         ],
         suits: "Clever, food-motivated dogs who have already mastered Level 1 and 2 puzzles.",
         skip: "It would be your dog's first puzzle.",
-        checked: "$23.99 on Amazon when we checked on Sep 27, 2026.",
+        checked: "Checked on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "petsafe-busy-buddy-tug-a-jug",
@@ -346,7 +346,7 @@ export const guides: Guide[] = [
           "Not for dogs that chew plastic",
         ],
         suits: "Small and medium dogs who like to toss and tug their food around.",
-        checked: "Small was $12.99 on Amazon when we checked on Sep 27, 2026.",
+        checked: "We checked the Small size on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "kong-classic",
@@ -362,7 +362,7 @@ export const guides: Guide[] = [
           "Strong chewers need the black Extreme instead",
         ],
         suits: "Crate training, apartment dogs, and time before you leave the house.",
-        checked: "Large was $13.96 on Amazon when we checked on Sep 27, 2026.",
+        checked: "We checked the Large size on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "west-paw-qwizl",
@@ -378,7 +378,7 @@ export const guides: Guide[] = [
           "Still not indestructible, so supervise hard chewers",
         ],
         suits: "Dogs who chew up plastic puzzles.",
-        checked: "Large was $26.95 on Amazon when we checked on Sep 27, 2026.",
+        checked: "We checked the Large size on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
     ],
     criteria: [
@@ -436,7 +436,7 @@ export const guides: Guide[] = [
     hubSlugs: ["apartment-pets"],
     quickPicks: [
       { label: "Best overall (couch savers)", productSlug: "smartcat-ultimate-scratching-post", note: "A tall, heavy sisal post that doesn't wobble." },
-      { label: "Budget vertical post", productSlug: "amazon-basics-cat-scratching-post", note: "A 31.5-inch post for under $20 when we checked." },
+      { label: "Budget vertical post", productSlug: "amazon-basics-cat-scratching-post", note: "A 31.5-inch post at a budget price." },
       { label: "Rug scratchers, cheapest test", productSlug: "kitty-city-xl-scratch-pads", note: "Three flat cardboard pads to spread around the house." },
       { label: "Scratch and nap", productSlug: "scratch-lounge-original-xl", note: "A walled cardboard lounge cats also sleep in." },
       { label: "Climbers", productSlug: "feandrea-cat-tree", note: "An 81-inch tree with scratching areas on every level." },
@@ -471,7 +471,7 @@ export const guides: Guide[] = [
           "Won't help a cat who only scratches floors",
         ],
         suits: "Indoor cats scratching couch arms and door frames, and big cats who knock over light posts.",
-        checked: "$79.99 on Amazon when we checked on Sep 27, 2026.",
+        checked: "Checked on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "amazon-basics-cat-scratching-post",
@@ -488,7 +488,7 @@ export const guides: Guide[] = [
         ],
         suits: "Kittens, average-size cats, and anyone on a tight budget.",
         skip: "You have a large, enthusiastic scratcher. Spend more on a heavier post.",
-        checked: "$17.84 on Amazon when we checked on Sep 27, 2026.",
+        checked: "Checked on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "kitty-city-xl-scratch-pads",
@@ -505,7 +505,7 @@ export const guides: Guide[] = [
           "Too short for a vertical stretch",
         ],
         suits: "Rug scratchers, kittens, and multi-room homes.",
-        checked: "$18.24 for three on Amazon when we checked on Sep 27, 2026.",
+        checked: "Sold as a three-pack. Checked on Amazon on Sep 27, 2026; check the current price on Amazon.",
       },
       {
         productSlug: "scratch-lounge-original-xl",
@@ -522,7 +522,7 @@ export const guides: Guide[] = [
           "Inserts wear out and need replacing",
         ],
         suits: "Cats who like lying on what they scratch, and rug scratchers.",
-        checked: "$39.95 on Amazon when we checked on Sep 27, 2026.",
+        checked: "Checked on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
       {
         productSlug: "feandrea-cat-tree",
@@ -540,7 +540,7 @@ export const guides: Guide[] = [
         ],
         suits: "Climbers, multi-cat homes, and indoor cats who need vertical territory.",
         skip: "You have a small apartment. A post plus a window perch may fit better.",
-        checked: "$67.99 on Amazon when we checked on Sep 27, 2026.",
+        checked: "Checked on Amazon on Sep 27, 2026. Check the current price on Amazon.",
       },
     ],
     criteria: [

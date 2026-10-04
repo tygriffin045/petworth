@@ -675,7 +675,7 @@ export const products: Product[] = [
     pros: ["Comfortable webbing", "Reliable hardware", "Matches Ruffwear harness ecosystem"],
     cons: ["Costs more than basic nylon", "Pattern/color stock rotates"],
     whoItsFor: "Daily walkers who already like Ruffwear fit and want matching durability.",
-    skipIf: "You only need a $10 spare for the car — buy a basic leash.",
+    skipIf: "You only need a cheap spare for the car — buy a basic leash.",
     specs: [{"label": "Material", "value": "Reflective Tubelok webbing"}, {"label": "Length", "value": "Adjustable 3.5–6 ft"}, {"label": "Carry", "value": "Hand-held or waist-worn"}, {"label": "Use", "value": "Everyday / light trail"}],
     relatedSlugs: ["ruffwear-front-range-harness", "rabbitgoo-no-pull-harness"],
     amazonAsin: "B0C7CZXD9Y",

@@ -49,7 +49,7 @@ export default async function ComparePage({ params }: Props) {
         <table className="min-w-full text-left text-sm">
           <thead className="bg-slate-50 text-xs uppercase tracking-wider text-slate-500">
             <tr>
-              {table.columns.map((col) => (
+              {table.columns.filter((col) => col.key !== "priceBand").map((col) => (
                 <th key={col.key} className="px-4 py-3 font-semibold">
                   {col.label}
                 </th>
@@ -79,7 +79,6 @@ export default async function ComparePage({ params }: Props) {
                   <td className="px-4 py-3 text-slate-600">{row.bestFor}</td>
                   <td className="px-4 py-3 text-slate-600">{row.loftOrFeel}</td>
                   <td className="px-4 py-3 text-slate-600">{row.cooling}</td>
-                  <td className="px-4 py-3 text-slate-600">{row.priceBand}</td>
                   <td className="px-4 py-3 text-slate-600">{row.skipIf}</td>
                   <td className="px-4 py-3">
                     <a

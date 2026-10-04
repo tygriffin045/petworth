@@ -1,0 +1,1846 @@
+{
+ "generated": "2026-10-04",
+ "method": "Premium = highest-priced well-regarded (rating>=4.3, 50+ ratings) in-stock Top 10 item; Value = lowest-priced well-regarded; Bang for the Buck = middle price band, Amazon Best Seller preferred, then rating. Prices are live amazon.com buy-box prices on the checked date.",
+ "pages": {
+  "dog-beds-crates": {
+   "site": "petworth",
+   "page": "dog-beds-crates",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0CCDQ9TLT",
+     "slug": "invenho-small-dog-bed-for-small",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0DHVFWSRW",
+     "slug": "spotted-play-orthopedic-dog-bed-with",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0F1CM5RHT",
+     "slug": "bedsure-supportmax-extra-thick-orthopedic-xl",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0D9HBS4KH",
+     "slug": "jollyvogue-small-dog-bed",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B09D7DWTVB",
+     "slug": "ksiia-washable-dog-bed-medium-size",
+     "price": 19.99,
+     "rating": 4.6,
+     "ratings": 33953,
+     "bestseller": true
+    },
+    {
+     "asin": "B09N8W2SC4",
+     "slug": "bfpethome-orthopedic-washable-large-dog-bed",
+     "price": 31.99,
+     "rating": 4.4,
+     "ratings": 9701,
+     "bestseller": true
+    },
+    {
+     "asin": "B089RGDQBB",
+     "slug": "bedsure-orthopedic-dog-bed",
+     "price": 39.99,
+     "rating": 4.6,
+     "ratings": 35934,
+     "bestseller": false
+    },
+    {
+     "asin": "B0BDLGZCTY",
+     "slug": "eheyciga-orthopedic-extra-large-dog-bed",
+     "price": 39.99,
+     "rating": 4.5,
+     "ratings": 23168,
+     "bestseller": true
+    },
+    {
+     "asin": "B08CXGYW1Q",
+     "slug": "bedsure-calming-dog-bed-medium-size",
+     "price": 42.49,
+     "rating": 4.6,
+     "ratings": 26965,
+     "bestseller": true
+    },
+    {
+     "asin": "B01JAY0PZ6",
+     "slug": "furhaven-orthopedic-dog-bed",
+     "price": 50.28,
+     "rating": 4.5,
+     "ratings": 44840,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "4 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B01JAY0PZ6",
+     "slug": "furhaven-orthopedic-dog-bed",
+     "name": "Furhaven Orthopedic Sofa-Style Dog Bed",
+     "price": 50.28,
+     "line": "Highest-end pick in this Top 10 \u2014 for dogs up to 55 lbs, plush & suede sofa."
+    },
+    "bang": {
+     "asin": "B08CXGYW1Q",
+     "slug": "bedsure-calming-dog-bed-medium-size",
+     "name": "Bedsure Calming Dog Bed Medium Size Dog Donut Washable Pet",
+     "price": 42.49,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 30ins camel."
+    },
+    "value": {
+     "asin": "B09D7DWTVB",
+     "slug": "ksiia-washable-dog-bed-medium-size",
+     "name": "KSIIA Washable Dog Bed Medium Size Dog Crate Bed Plush Pet Mat",
+     "price": 19.99,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon."
+    }
+   }
+  },
+  "cat-trees-scratchers": {
+   "site": "petworth",
+   "page": "cat-trees-scratchers",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0CXMQTLJK",
+     "slug": "petfusion-ultimate-cat-scratcher",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0D2HMV3S6",
+     "slug": "fdw-54-cat-tree-tower-dark",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B07G3GVBV7",
+     "slug": "amazon-basics-cat-scratching-post",
+     "price": 17.84,
+     "rating": 4.5,
+     "ratings": 16165,
+     "bestseller": true
+    },
+    {
+     "asin": "B01MZG54L6",
+     "slug": "kitty-city-xl-scratch-pads",
+     "price": 18.24,
+     "rating": 4.7,
+     "ratings": 21281,
+     "bestseller": false
+    },
+    {
+     "asin": "B0BZVBJW23",
+     "slug": "peekab-32-tall-cat-scratching-post",
+     "price": 19.99,
+     "rating": 4.5,
+     "ratings": 3347,
+     "bestseller": true
+    },
+    {
+     "asin": "B000EIHQU0",
+     "slug": "scratch-lounge-original-xl",
+     "price": 39.95,
+     "rating": 4.8,
+     "ratings": 2644,
+     "bestseller": false
+    },
+    {
+     "asin": "B084YZWS2C",
+     "slug": "yunique-cat-tree-with-cat-condo",
+     "price": 39.99,
+     "rating": 4.2,
+     "ratings": 7914,
+     "bestseller": true
+    },
+    {
+     "asin": "B0B7RQTSB7",
+     "slug": "heybly-cat-tree-with-toy",
+     "price": 39.99,
+     "rating": 4.2,
+     "ratings": 12271,
+     "bestseller": true
+    },
+    {
+     "asin": "B08MQ7ZD4G",
+     "slug": "feandrea-cat-tree",
+     "price": 67.99,
+     "rating": 4.6,
+     "ratings": 5804,
+     "bestseller": true
+    },
+    {
+     "asin": "B07W865K8N",
+     "slug": "smartcat-ultimate-scratching-post",
+     "price": 79.99,
+     "rating": 4.7,
+     "ratings": 34103,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "2 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B07W865K8N",
+     "slug": "smartcat-ultimate-scratching-post",
+     "name": "SmartCat Ultimate Scratching Post (32 inch)",
+     "price": 79.99,
+     "line": "Highest-end pick in this Top 10 \u2014 large 32 inch tower, sisal fiber."
+    },
+    "bang": {
+     "asin": "B08MQ7ZD4G",
+     "slug": "feandrea-cat-tree",
+     "name": "Feandrea Multi-Level Cat Tree with Condo",
+     "price": 67.99,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 81.1-Inch large cat tower."
+    },
+    "value": {
+     "asin": "B07G3GVBV7",
+     "slug": "amazon-basics-cat-scratching-post",
+     "name": "Amazon Basics Sisal Cat Scratching Post",
+     "price": 17.84,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 cat furniture, dangling ball toy."
+    }
+   }
+  },
+  "feeders-fountains": {
+   "site": "petworth",
+   "page": "feeders-fountains",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0D5B6RLYY",
+     "slug": "oneisall-7l-230oz-dog-water-fountain",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0FJMF2T4J",
+     "slug": "neareal-cat-water-fountain-stainless-steel",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0DNQ7FGF2",
+     "slug": "grookpet-dog-water-fountain-for-large",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B08NCDBT7Q",
+     "slug": "veken-innovation-award-winner-95oz-2",
+     "price": 19.99,
+     "rating": 4.3,
+     "ratings": 44058,
+     "bestseller": true
+    },
+    {
+     "asin": "B0FPFZ7XFJ",
+     "slug": "veken-innovation-award-winner-stainless-steel",
+     "price": 27.99,
+     "rating": 4.3,
+     "ratings": 5317,
+     "bestseller": true
+    },
+    {
+     "asin": "B075GLN2KY",
+     "slug": "frisco-double-diner",
+     "price": 38.99,
+     "rating": 4.3,
+     "ratings": 1076,
+     "bestseller": false
+    },
+    {
+     "asin": "B01GYGGHPK",
+     "slug": "petsafe-drinkwell-platinum",
+     "price": 55.99,
+     "rating": 4.3,
+     "ratings": 23236,
+     "bestseller": false
+    },
+    {
+     "asin": "B079B3V312",
+     "slug": "neater-feeder-deluxe",
+     "price": 59.99,
+     "rating": 4.6,
+     "ratings": 2960,
+     "bestseller": false
+    },
+    {
+     "asin": "B0GCXVX5NW",
+     "slug": "sharlovy-no-spill-dog-water-fountain",
+     "price": 59.99,
+     "rating": 4.5,
+     "ratings": 203,
+     "bestseller": true
+    },
+    {
+     "asin": "B09CFMKCG8",
+     "slug": "petlibro-automatic-feeder",
+     "price": 62.99,
+     "rating": 4.1,
+     "ratings": 10863,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "3 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B079B3V312",
+     "slug": "neater-feeder-deluxe",
+     "name": "Neater Feeder Deluxe Elevated Mess-Proof Bowls",
+     "price": 59.99,
+     "line": "Among the highest-end picks in this Top 10 \u2014 19\u201340 lbs, 2 height adjustable."
+    },
+    "bang": {
+     "asin": "B0GCXVX5NW",
+     "slug": "sharlovy-no-spill-dog-water-fountain",
+     "name": "SHARLOVY No Spill Dog Water Fountain Stainless Steel",
+     "price": 59.99,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 large 8L/2.1Gal ultra quiet."
+    },
+    "value": {
+     "asin": "B08NCDBT7Q",
+     "slug": "veken-innovation-award-winner-95oz-2",
+     "name": "Veken Innovation Award Winner 95oz/2.8L Cat Water Fountain",
+     "price": 19.99,
+     "line": "Lowest-priced pick in this Top 10 \u2014 C1 classic."
+    }
+   }
+  },
+  "leashes-harnesses-collars": {
+   "site": "petworth",
+   "page": "leashes-harnesses-collars",
+   "checked": "2026-10-04",
+   "dropped": [],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B08574XLL8",
+     "slug": "joytale-reflective-dog-leash-for-medium",
+     "price": 7.99,
+     "rating": 4.7,
+     "ratings": 29365,
+     "bestseller": true
+    },
+    {
+     "asin": "B099WM7ZT7",
+     "slug": "taglory-rope-dog-leash-for-medium",
+     "price": 8.99,
+     "rating": 4.7,
+     "ratings": 27638,
+     "bestseller": true
+    },
+    {
+     "asin": "B0B1F5F3VR",
+     "slug": "best-pet-supplies-voyager-nylon-dog",
+     "price": 9.99,
+     "rating": 4.6,
+     "ratings": 823,
+     "bestseller": true
+    },
+    {
+     "asin": "B000BHT5NU",
+     "slug": "petsafe-easy-walk-harness",
+     "price": 11.49,
+     "rating": 4.3,
+     "ratings": 49267,
+     "bestseller": false
+    },
+    {
+     "asin": "B08S3MZ5SR",
+     "slug": "fida-heavy-duty-dog-leash-for",
+     "price": 15.29,
+     "rating": 4.5,
+     "ratings": 6488,
+     "bestseller": true
+    },
+    {
+     "asin": "B07JZ88YLN",
+     "slug": "rabbitgoo-no-pull-harness",
+     "price": 24.98,
+     "rating": 4.5,
+     "ratings": 185023,
+     "bestseller": false
+    },
+    {
+     "asin": "B0C7CZXD9Y",
+     "slug": "ruffwear-flat-out-leash",
+     "price": 31.49,
+     "rating": 4.6,
+     "ratings": 276,
+     "bestseller": false
+    },
+    {
+     "asin": "B07BGH4R6Z",
+     "slug": "2-hounds-design-freedom-no-pull",
+     "price": 34.98,
+     "rating": 4.4,
+     "ratings": 8943,
+     "bestseller": true
+    },
+    {
+     "asin": "B07B9RQMBL",
+     "slug": "blue-9-balance-harness",
+     "price": 45.95,
+     "rating": 4.3,
+     "ratings": 2021,
+     "bestseller": false
+    },
+    {
+     "asin": "B09MSNQQRB",
+     "slug": "ruffwear-front-range-harness",
+     "price": 59.99,
+     "rating": 4.6,
+     "ratings": 19060,
+     "bestseller": false
+    }
+   ],
+   "picks": {
+    "premium": {
+     "asin": "B09MSNQQRB",
+     "slug": "ruffwear-front-range-harness",
+     "name": "Ruffwear Front Range Dog Harness",
+     "price": 59.99,
+     "line": "Highest-end pick in this Top 10: Ruffwear's Front Range chest harness."
+    },
+    "bang": {
+     "asin": "B08S3MZ5SR",
+     "slug": "fida-heavy-duty-dog-leash-for",
+     "name": "Fida Heavy Duty Dog Leash for Medium Large Dogs",
+     "price": 15.29,
+     "line": "Mid-priced Amazon Best Seller: a heavy-duty 4 ft leash with dual padded handles."
+    },
+    "value": {
+     "asin": "B08574XLL8",
+     "slug": "joytale-reflective-dog-leash-for-medium",
+     "name": "Joytale Reflective Dog Leash for Medium & Large Dogs",
+     "price": 7.99,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon: a reflective 6 ft leash."
+    }
+   }
+  },
+  "grooming": {
+   "site": "petworth",
+   "page": "grooming",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0CLLPVZRV",
+     "slug": "swihauk-self-cleaning-slicker-brush-skin",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0D1N9PXD8",
+     "slug": "dipoo-self-cleaning-shedding-brush-skin",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0FHQSL9V7",
+     "slug": "cooncicy-deshedding-brush-for-cat-small",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B0002ARUKQ",
+     "slug": "millers-forge-nail-clippers",
+     "price": 8.34,
+     "rating": 4.6,
+     "ratings": 8921,
+     "bestseller": false
+    },
+    {
+     "asin": "B08K8Y6W7K",
+     "slug": "yiefur-cat-brush-for-shedding",
+     "price": 8.99,
+     "rating": 4.6,
+     "ratings": 6199,
+     "bestseller": true
+    },
+    {
+     "asin": "B098P6164W",
+     "slug": "aumuca-cat-brush-for-shedding",
+     "price": 13.49,
+     "rating": 4.4,
+     "ratings": 38454,
+     "bestseller": true
+    },
+    {
+     "asin": "B0161BNW60",
+     "slug": "safari-nail-trimmer",
+     "price": 14.41,
+     "rating": 4.6,
+     "ratings": 20923,
+     "bestseller": false
+    },
+    {
+     "asin": "B00ZGPI3OY",
+     "slug": "hertzko-slicker-brush",
+     "price": 16.95,
+     "rating": 4.5,
+     "ratings": 91912,
+     "bestseller": false
+    },
+    {
+     "asin": "B07MZD93QQ",
+     "slug": "furminator-deshedding-tool",
+     "price": 33.57,
+     "rating": 4.7,
+     "ratings": 11060,
+     "bestseller": false
+    },
+    {
+     "asin": "B07NSNHTTK",
+     "slug": "furminator-cat-deshedding",
+     "price": 42.21,
+     "rating": 4.7,
+     "ratings": 8143,
+     "bestseller": true
+    }
+   ],
+   "skipped_picks_reason": "3 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B07NSNHTTK",
+     "slug": "furminator-cat-deshedding",
+     "name": "FURminator Undercoat Deshedding Tool for Cats",
+     "price": 42.21,
+     "line": "Highest-end pick in this Top 10."
+    },
+    "bang": {
+     "asin": "B098P6164W",
+     "slug": "aumuca-cat-brush-for-shedding",
+     "name": "Aumuca Cat Brush for Shedding",
+     "price": 13.49,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 cat brushes for indoor cats, cat brush for long or short haired cats."
+    },
+    "value": {
+     "asin": "B0002ARUKQ",
+     "slug": "millers-forge-nail-clippers",
+     "name": "Millers Forge Stainless Steel Dog Nail Clipper (Plier Style)",
+     "price": 8.34,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 limited edition."
+    }
+   }
+  },
+  "toys-enrichment": {
+   "site": "petworth",
+   "page": "toys-enrichment",
+   "checked": "2026-10-04",
+   "dropped": [],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B000F4AVPA",
+     "slug": "chuckit-ultra-ball",
+     "price": 8.79,
+     "rating": 4.8,
+     "ratings": 108142,
+     "bestseller": true
+    },
+    {
+     "asin": "B0002AR182",
+     "slug": "kong-puppy",
+     "price": 10.96,
+     "rating": 4.6,
+     "ratings": 53574,
+     "bestseller": false
+    },
+    {
+     "asin": "B00CPDWT2M",
+     "slug": "benebone-wishbone-dog-chew-toy-for",
+     "price": 12.78,
+     "rating": 4.5,
+     "ratings": 110412,
+     "bestseller": true
+    },
+    {
+     "asin": "B016M8QSX6",
+     "slug": "chuckit-sport-launcher",
+     "price": 12.94,
+     "rating": 4.8,
+     "ratings": 30055,
+     "bestseller": false
+    },
+    {
+     "asin": "B0002AR0I8",
+     "slug": "kong-classic",
+     "price": 13.96,
+     "rating": 4.6,
+     "ratings": 93538,
+     "bestseller": true
+    },
+    {
+     "asin": "B07239T47Y",
+     "slug": "nina-ottosson-dog-tornado",
+     "price": 15.99,
+     "rating": 4.3,
+     "ratings": 55714,
+     "bestseller": false
+    },
+    {
+     "asin": "B075KDZ1J1",
+     "slug": "outward-hound-puzzle",
+     "price": 23.99,
+     "rating": 4.3,
+     "ratings": 55714,
+     "bestseller": false
+    },
+    {
+     "asin": "B003ALMW0M",
+     "slug": "kong-wobbler",
+     "price": 24.96,
+     "rating": 4.5,
+     "ratings": 17256,
+     "bestseller": false
+    },
+    {
+     "asin": "B0002AR16E",
+     "slug": "kong-extreme",
+     "price": 26.69,
+     "rating": 4.7,
+     "ratings": 4642,
+     "bestseller": false
+    },
+    {
+     "asin": "B01N6YEAQR",
+     "slug": "west-paw-qwizl",
+     "price": 26.95,
+     "rating": 4.4,
+     "ratings": 8354,
+     "bestseller": false
+    }
+   ],
+   "picks": {
+    "premium": {
+     "asin": "B01N6YEAQR",
+     "slug": "west-paw-qwizl",
+     "name": "West Paw Zogoflex Qwizl Treat Toy",
+     "price": 26.95,
+     "line": "Highest-end pick in this Top 10: an interactive treat-dispensing puzzle toy."
+    },
+    "bang": {
+     "asin": "B0002AR0I8",
+     "slug": "kong-classic",
+     "name": "KONG Classic Dog Toy",
+     "price": 13.96,
+     "line": "Mid-priced Amazon Best Seller: the stuffable natural-rubber KONG Classic, in large."
+    },
+    "value": {
+     "asin": "B000F4AVPA",
+     "slug": "chuckit-ultra-ball",
+     "name": "Chuckit! Ultra Ball",
+     "price": 8.79,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon: a floating fetch ball, 2-pack."
+    }
+   }
+  },
+  "travel": {
+   "site": "petworth",
+   "page": "travel",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0DQ8FDJXG",
+     "slug": "lehni-soft-sided-cat-dog-pet",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0CLVCMLCK",
+     "slug": "victoper-dog-car-seat-cover",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B002RT8Z8Q",
+     "slug": "petmate-kennel-cab-carrier",
+     "price": 19.46,
+     "rating": 4.4,
+     "ratings": 2624,
+     "bestseller": false
+    },
+    {
+     "asin": "B07ZPPSR2L",
+     "slug": "vceoa-17-5-x11-x11-pet",
+     "price": 19.99,
+     "rating": 4.8,
+     "ratings": 38088,
+     "bestseller": true
+    },
+    {
+     "asin": "B07JZ31KX9",
+     "slug": "henkelion-cat-carriers-dog-carrier-pet",
+     "price": 23.48,
+     "rating": 4.6,
+     "ratings": 53245,
+     "bestseller": true
+    },
+    {
+     "asin": "B0727Y5ZD7",
+     "slug": "urpower-dog-car-seat-cover-for",
+     "price": 26.99,
+     "rating": 4.6,
+     "ratings": 46905,
+     "bestseller": true
+    },
+    {
+     "asin": "B07MS8CD6N",
+     "slug": "morpilot-cat-carrier-soft-for-large",
+     "price": 29.99,
+     "rating": 4.6,
+     "ratings": 37815,
+     "bestseller": true
+    },
+    {
+     "asin": "B000FLETX8",
+     "slug": "sherpa-original-deluxe-carrier",
+     "price": 49.99,
+     "rating": 4.5,
+     "ratings": 8521,
+     "bestseller": true
+    },
+    {
+     "asin": "B00D44Z8Z6",
+     "slug": "kurgo-wander-bench-cover",
+     "price": 59.99,
+     "rating": 4.3,
+     "ratings": 2156,
+     "bestseller": false
+    },
+    {
+     "asin": "B000SIF7TS",
+     "slug": "sleepypod-mobile-pet-bed",
+     "price": 224.99,
+     "rating": 4.4,
+     "ratings": 326,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "2 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B000SIF7TS",
+     "slug": "sleepypod-mobile-pet-bed",
+     "name": "Sleepypod Mobile Pet Bed / Car Carrier",
+     "price": 224.99,
+     "line": "Highest-end pick in this Top 10 \u2014 crash tested cat/dog car seat + carrier."
+    },
+    "bang": {
+     "asin": "B07JZ31KX9",
+     "slug": "henkelion-cat-carriers-dog-carrier-pet",
+     "name": "Henkelion Cat Carriers Dog Carrier Pet Carrier For Small /",
+     "price": 23.48,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 up to 15lbs, TSA airline approved small dog carrier soft sided."
+    },
+    "value": {
+     "asin": "B002RT8Z8Q",
+     "slug": "petmate-kennel-cab-carrier",
+     "name": "Petmate Soft-Sided Kennel Cab Pet Carrier",
+     "price": 19.46,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 up to 10lbs."
+    }
+   }
+  },
+  "litter": {
+   "site": "petworth",
+   "page": "litter",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0D1LK2G5C",
+     "slug": "cat-s-pride-antibacterial-litter",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B00L369CXQ",
+     "slug": "petmate-basic-open-plastic-cat-litter",
+     "price": 5.99,
+     "rating": 4.4,
+     "ratings": 35478,
+     "bestseller": true
+    },
+    {
+     "asin": "B000VDR8LA",
+     "slug": "fresh-step-clumping-litter",
+     "price": 11.16,
+     "rating": 4.6,
+     "ratings": 54505,
+     "bestseller": true
+    },
+    {
+     "asin": "B089LLHMQL",
+     "slug": "arm-hammer-slide-platinum-easy-clean",
+     "price": 17.99,
+     "rating": 4.6,
+     "ratings": 19661,
+     "bestseller": true
+    },
+    {
+     "asin": "B0009X29WK",
+     "slug": "dr-elsey-s-ultra-unscented-clumping",
+     "price": 20.99,
+     "rating": 4.4,
+     "ratings": 70246,
+     "bestseller": true
+    },
+    {
+     "asin": "B0GRYPRD8R",
+     "slug": "kiseng-stainless-steel-cat-litter-box",
+     "price": 36.99,
+     "rating": 4.4,
+     "ratings": 1515,
+     "bestseller": true
+    },
+    {
+     "asin": "B0GJ4MGDKQ",
+     "slug": "onebug-high-sided-stainless-steel-xl",
+     "price": 36.99,
+     "rating": 4.5,
+     "ratings": 989,
+     "bestseller": true
+    },
+    {
+     "asin": "B0054IJX4W",
+     "slug": "modkat-litter-box",
+     "price": 109.99,
+     "rating": 4.6,
+     "ratings": 2227,
+     "bestseller": false
+    },
+    {
+     "asin": "B00II72BF4",
+     "slug": "petsafe-scoopfree-tray-refills",
+     "price": 118.98,
+     "rating": 4.6,
+     "ratings": 41263,
+     "bestseller": false
+    },
+    {
+     "asin": "B07WZPJ2LW",
+     "slug": "petsafe-scoopfree-litter-box",
+     "price": 129.99,
+     "rating": 4.0,
+     "ratings": 10750,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "1 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B00II72BF4",
+     "slug": "petsafe-scoopfree-tray-refills",
+     "name": "PetSafe ScoopFree Crystal Litter Tray Refills (Multi-Pack)",
+     "price": 118.98,
+     "line": "Among the highest-end picks in this Top 10 \u2014 fresh scent."
+    },
+    "bang": {
+     "asin": "B0009X29WK",
+     "slug": "dr-elsey-s-ultra-unscented-clumping",
+     "name": "Dr. Elsey's Ultra UnScented Clumping Clay Cat Litter 40 lb. Bag",
+     "price": 20.99,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 low dust."
+    },
+    "value": {
+     "asin": "B00L369CXQ",
+     "slug": "petmate-basic-open-plastic-cat-litter",
+     "name": "Petmate Basic Open Plastic Cat Litter Pan",
+     "price": 5.99,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 open-top kitty litter box."
+    }
+   }
+  },
+  "training-waste": {
+   "site": "petworth",
+   "page": "training-waste",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0DT9K1LST",
+     "slug": "powools-puppy-pads-for-dogs",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0CPL93YN4",
+     "slug": "powools-puppy-pads-for-dogs-2",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B07YYKL3WM",
+     "slug": "cocoyo-best-value-22-x22-dog",
+     "price": 10.21,
+     "rating": 4.4,
+     "ratings": 7674,
+     "bestseller": true
+    },
+    {
+     "asin": "B000KV61FC",
+     "slug": "petsafe-busy-buddy-tug-a-jug",
+     "price": 12.99,
+     "rating": 3.8,
+     "ratings": 1776,
+     "bestseller": false
+    },
+    {
+     "asin": "B07VC4KZ8D",
+     "slug": "cocoyo-training-pads",
+     "price": 18.98,
+     "rating": 4.4,
+     "ratings": 6375,
+     "bestseller": true
+    },
+    {
+     "asin": "B00MW8G62E",
+     "slug": "amazon-basics-leak-proof-dog-and",
+     "price": 19.2,
+     "rating": 4.4,
+     "ratings": 220836,
+     "bestseller": true
+    },
+    {
+     "asin": "B00ODRO7W8",
+     "slug": "honey-care-all-absorb",
+     "price": 19.98,
+     "rating": 4.5,
+     "ratings": 40640,
+     "bestseller": true
+    },
+    {
+     "asin": "B01LWS9514",
+     "slug": "glad-for-pets-activated-carbon-disposable",
+     "price": 28.48,
+     "rating": 4.4,
+     "ratings": 110311,
+     "bestseller": true
+    },
+    {
+     "asin": "B09NBBGH7X",
+     "slug": "dogcator-dog-pee-pads-extra-large",
+     "price": 29.99,
+     "rating": 4.4,
+     "ratings": 2010,
+     "bestseller": true
+    },
+    {
+     "asin": "B07CWHTQW8",
+     "slug": "amazon-basics-x-large-heavy-duty",
+     "price": 30.44,
+     "rating": 4.6,
+     "ratings": 43545,
+     "bestseller": true
+    }
+   ],
+   "skipped_picks_reason": "2 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B07CWHTQW8",
+     "slug": "amazon-basics-x-large-heavy-duty",
+     "name": "Amazon Basics X-Large Heavy Duty Absorbent Puppy Potty Pads",
+     "price": 30.44,
+     "line": "Highest-end pick in this Top 10 \u2014 super absorbent gel technology for dog training."
+    },
+    "bang": {
+     "asin": "B00ODRO7W8",
+     "slug": "honey-care-all-absorb",
+     "name": "Honey Care All-Absorb",
+     "price": 19.98,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 small 17.5\" x 23.5\", dog and puppy training pads."
+    },
+    "value": {
+     "asin": "B07YYKL3WM",
+     "slug": "cocoyo-best-value-22-x22-dog",
+     "name": "COCOYO Best Value 22\"x22\" Dog Training Pads 50 Count",
+     "price": 10.21,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 dog pee pads, super absorbent puppy pads."
+    }
+   }
+  },
+  "health-wellness": {
+   "site": "petworth",
+   "page": "health-wellness",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0CJ9YSS43",
+     "slug": "woof-pupsicle-refill-pops-for-calming",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0CRNTDXJX",
+     "slug": "juwantu-dog-toothbrush-set-of-8",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B08B7238H5",
+     "slug": "pets-pupps-pet-toothbrush-for-dogs",
+     "price": 8.99,
+     "rating": 4.6,
+     "ratings": 6270,
+     "bestseller": true
+    },
+    {
+     "asin": "B098PF4NPQ",
+     "slug": "jasper-dog-toothbrush",
+     "price": 13.99,
+     "rating": 4.5,
+     "ratings": 14789,
+     "bestseller": true
+    },
+    {
+     "asin": "B08H6V9WJ6",
+     "slug": "zesty-paws-calming-bites",
+     "price": 16.97,
+     "rating": 4.2,
+     "ratings": 2667,
+     "bestseller": false
+    },
+    {
+     "asin": "B01DWI7ZRC",
+     "slug": "greenies-dental-treats",
+     "price": 32.98,
+     "rating": 4.8,
+     "ratings": 36597,
+     "bestseller": false
+    },
+    {
+     "asin": "B0BGV8L7L2",
+     "slug": "purina-pro-plan-veterinary-supplements-calming",
+     "price": 33.99,
+     "rating": 4.2,
+     "ratings": 3334,
+     "bestseller": true
+    },
+    {
+     "asin": "B077MDJ58Y",
+     "slug": "zesty-paws-calming-chews-for-dogs",
+     "price": 34.97,
+     "rating": 4.1,
+     "ratings": 28524,
+     "bestseller": true
+    },
+    {
+     "asin": "B0FB9MXHR1",
+     "slug": "therapetmd-60-day-dog-calming-diffuser",
+     "price": 35.99,
+     "rating": 3.5,
+     "ratings": 4046,
+     "bestseller": true
+    },
+    {
+     "asin": "B00Z3FQMWW",
+     "slug": "thundershirt-anxiety-vest",
+     "price": 39.99,
+     "rating": 4.2,
+     "ratings": 12958,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "2 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B01DWI7ZRC",
+     "slug": "greenies-dental-treats",
+     "name": "Greenies Original Dental Dog Treats",
+     "price": 32.98,
+     "line": "Among the highest-end picks in this Top 10 \u2014 original chicken flavor."
+    },
+    "bang": {
+     "asin": "B098PF4NPQ",
+     "slug": "jasper-dog-toothbrush",
+     "name": "Jasper Dog Toothbrush",
+     "price": 13.99,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 360\u00b0 finger toothbrush for dogs & cats."
+    },
+    "value": {
+     "asin": "B08B7238H5",
+     "slug": "pets-pupps-pet-toothbrush-for-dogs",
+     "name": "Pets & Pupps Pet Toothbrush for Dogs",
+     "price": 8.99,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 soft bristles, easy teeth cleaning & dental care."
+    }
+   }
+  },
+  "aquatics-aquarium": {
+   "site": "petworth",
+   "page": "aquatics-aquarium",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0DT1NMX61",
+     "slug": "aqueon-20-gallon-led-starter-kit",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B000R9WRIC",
+     "slug": "tetra-goldfish-flakes-fish-food",
+     "price": 9.97,
+     "rating": 4.8,
+     "ratings": 22718,
+     "bestseller": true
+    },
+    {
+     "asin": "B000YDQ90S",
+     "slug": "aqueon-aquarium-fish-tank-replacement-filter",
+     "price": 11.95,
+     "rating": 4.8,
+     "ratings": 18221,
+     "bestseller": true
+    },
+    {
+     "asin": "B00025K0TY",
+     "slug": "tetramin-tropical-flakes-fish-food",
+     "price": 13.97,
+     "rating": 4.8,
+     "ratings": 22027,
+     "bestseller": true
+    },
+    {
+     "asin": "B001DCZUO0",
+     "slug": "tetra-whisper-bio-bag-large-filter",
+     "price": 14.57,
+     "rating": 4.7,
+     "ratings": 16817,
+     "bestseller": true
+    },
+    {
+     "asin": "B00025694O",
+     "slug": "seachem-prime-500-ml-17-fl",
+     "price": 16.62,
+     "rating": 4.8,
+     "ratings": 43564,
+     "bestseller": true
+    },
+    {
+     "asin": "B000YDQ90I",
+     "slug": "aqueon-quietflow-cartridges-medium",
+     "price": 16.82,
+     "rating": 4.7,
+     "ratings": 13674,
+     "bestseller": true
+    },
+    {
+     "asin": "B000255NCI",
+     "slug": "api-freshwater-master-test-kit",
+     "price": 35.98,
+     "rating": 4.8,
+     "ratings": 31465,
+     "bestseller": true
+    },
+    {
+     "asin": "B003SJQJ46",
+     "slug": "fluval-c3-power-filter",
+     "price": 59.99,
+     "rating": 4.1,
+     "ratings": 5153,
+     "bestseller": false
+    },
+    {
+     "asin": "B09K826GWL",
+     "slug": "aqueon-pro-heater-50w",
+     "price": 68.93,
+     "rating": 4.2,
+     "ratings": 111,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "1 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B000255NCI",
+     "slug": "api-freshwater-master-test-kit",
+     "name": "API Freshwater Master Test Kit",
+     "price": 35.98,
+     "line": "Among the highest-end picks in this Top 10."
+    },
+    "bang": {
+     "asin": "B00025694O",
+     "slug": "seachem-prime-500-ml-17-fl",
+     "name": "Seachem Prime -500 ml/ 17 fl. oz.",
+     "price": 16.62,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 powerful treatment."
+    },
+    "value": {
+     "asin": "B000R9WRIC",
+     "slug": "tetra-goldfish-flakes-fish-food",
+     "name": "Tetra Goldfish Flakes Fish Food",
+     "price": 9.97,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 7.06 oz."
+    }
+   }
+  },
+  "small-pets": {
+   "site": "petworth",
+   "page": "small-pets",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0DGZPGZ57",
+     "slug": "mcage-deluxe-double-unit-two-full",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B00BAQYNZQ",
+     "slug": "kaytee-fiesta-rabbit-food",
+     "price": 9.95,
+     "rating": 4.7,
+     "ratings": 8632,
+     "bestseller": true
+    },
+    {
+     "asin": "B000WFKF9O",
+     "slug": "oxbow-western-timothy-hay",
+     "price": 11.89,
+     "rating": 4.6,
+     "ratings": 16960,
+     "bestseller": false
+    },
+    {
+     "asin": "B00COWGFUG",
+     "slug": "oxbow-essentials-guinea-pig-food",
+     "price": 12.4,
+     "rating": 4.8,
+     "ratings": 10589,
+     "bestseller": true
+    },
+    {
+     "asin": "B003SLLF48",
+     "slug": "oxbow-essentials-adult-rabbit-food",
+     "price": 12.4,
+     "rating": 4.8,
+     "ratings": 11937,
+     "bestseller": true
+    },
+    {
+     "asin": "B079RR6CC3",
+     "slug": "kaytee-timothy-hay",
+     "price": 35.9,
+     "rating": 4.6,
+     "ratings": 14405,
+     "bestseller": true
+    },
+    {
+     "asin": "B0FSZ6TQFC",
+     "slug": "snaat-20-planes-guinea-pig-cages",
+     "price": 35.99,
+     "rating": 4.1,
+     "ratings": 478,
+     "bestseller": true
+    },
+    {
+     "asin": "B0H93VDTW7",
+     "slug": "vevor-metal-small-animal-cage-34",
+     "price": 53.91,
+     "rating": 4.3,
+     "ratings": 148,
+     "bestseller": true
+    },
+    {
+     "asin": "B0GTNL2YJ2",
+     "slug": "hotamo-wooden-hamster-cage-with-acrylic",
+     "price": 89.99,
+     "rating": 4.6,
+     "ratings": 45,
+     "bestseller": true
+    },
+    {
+     "asin": "B001NJ0DAY",
+     "slug": "critter-nation-by-midwest-double-unit",
+     "price": 339.99,
+     "rating": 4.6,
+     "ratings": 6193,
+     "bestseller": true
+    }
+   ],
+   "skipped_picks_reason": "1 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B001NJ0DAY",
+     "slug": "critter-nation-by-midwest-double-unit",
+     "name": "Critter Nation by MidWest Double Unit Small Animal Cage",
+     "price": 339.99,
+     "line": "Highest-end pick in this Top 10 \u2014 spacious 2-Story habitat."
+    },
+    "bang": {
+     "asin": "B003SLLF48",
+     "slug": "oxbow-essentials-adult-rabbit-food",
+     "name": "Oxbow Essentials Adult Rabbit Food",
+     "price": 12.4,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 timothy hay rabbit pellets, 5 lb."
+    },
+    "value": {
+     "asin": "B00BAQYNZQ",
+     "slug": "kaytee-fiesta-rabbit-food",
+     "name": "Kaytee Fiesta Rabbit Food",
+     "price": 9.95,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 supports dental health and digestion."
+    }
+   }
+  },
+  "bird-supplies": {
+   "site": "petworth",
+   "page": "bird-supplies",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0D5QZ6SS2",
+     "slug": "yixund-bird-toys-parrot-toys-for",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0DSJC2RT9",
+     "slug": "kyouki-bird-toys-parrot-toys-natural",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0CJ9H7VWS",
+     "slug": "vevor-30-inch-flight-bird-cage",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0D9JXPWH2",
+     "slug": "lovyococo-bird-toys-conure-toys-bird",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [
+    "well-regarded threshold relaxed to rating>=4.0"
+   ],
+   "prices": [
+    {
+     "asin": "B003SJ5T24",
+     "slug": "a-e-cage-company-vitapol-smakers",
+     "price": 7.49,
+     "rating": 4.3,
+     "ratings": 104,
+     "bestseller": true
+    },
+    {
+     "asin": "B097339313",
+     "slug": "lovyococo-bird-shredding-foraging-toys-parakeet",
+     "price": 8.54,
+     "rating": 4.6,
+     "ratings": 2771,
+     "bestseller": true
+    },
+    {
+     "asin": "B002ABEH24",
+     "slug": "super-bird-star-gazer-toy",
+     "price": 12.99,
+     "rating": 4.1,
+     "ratings": 118,
+     "bestseller": false
+    },
+    {
+     "asin": "B0B7RLX7M8",
+     "slug": "prevue-pet-parakeet-manor-bird-cage",
+     "price": 29.81,
+     "rating": 4.2,
+     "ratings": 824,
+     "bestseller": true
+    },
+    {
+     "asin": "B0B7RNL8J8",
+     "slug": "prevue-parakeet-starter-cage",
+     "price": 54.32,
+     "rating": 4.0,
+     "ratings": 8,
+     "bestseller": false
+    },
+    {
+     "asin": "B0FCXZTD2V",
+     "slug": "viscoo-upgraded-encrypted-metal-46-inch",
+     "price": 54.99,
+     "rating": 4.1,
+     "ratings": 592,
+     "bestseller": true
+    }
+   ],
+   "skipped_picks_reason": "4 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B0FCXZTD2V",
+     "slug": "viscoo-upgraded-encrypted-metal-46-inch",
+     "name": "VISCOO Upgraded Encrypted Metal 46-Inch Bird Cage for Parrot",
+     "price": 54.99,
+     "line": "Highest-end pick in this Top 10."
+    },
+    "bang": {
+     "asin": "B0B7RLX7M8",
+     "slug": "prevue-pet-parakeet-manor-bird-cage",
+     "name": "Prevue Pet Parakeet Manor Bird Cage with Handle Easy Storage",
+     "price": 29.81,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 portable small bird cage."
+    },
+    "value": {
+     "asin": "B003SJ5T24",
+     "slug": "a-e-cage-company-vitapol-smakers",
+     "name": "A&E Cage Company Vitapol Smakers Strawberry Treat Sticks for Parakeets & Budgies",
+     "price": 7.49,
+     "line": "Lowest-priced pick in this Top 10 \u2014 encourages foraging & beak conditioning."
+    }
+   }
+  },
+  "reptile-supplies": {
+   "site": "petworth",
+   "page": "reptile-supplies",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0CHM522KT",
+     "slug": "reptiking-reptile-heat-bulb-lamp",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0CWDR98FZ",
+     "slug": "reptiking-reptile-light-fixture",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B00HZDXQJM",
+     "slug": "fluker-s-freeze-dried-river-shrimp",
+     "price": 2.78,
+     "rating": 4.6,
+     "ratings": 6336,
+     "bestseller": true
+    },
+    {
+     "asin": "B0006L2UC4",
+     "slug": "fluker-s-incandescent-basking-spotlight-bulbs",
+     "price": 5.14,
+     "rating": 4.4,
+     "ratings": 5417,
+     "bestseller": true
+    },
+    {
+     "asin": "B00HQ7QYBE",
+     "slug": "fluker-s-buffet-blend-aquatic-formula",
+     "price": 7.59,
+     "rating": 4.6,
+     "ratings": 17708,
+     "bestseller": true
+    },
+    {
+     "asin": "B01M1FZRS1",
+     "slug": "coconut-reptile-hide",
+     "price": 8.99,
+     "rating": 4.6,
+     "ratings": 4130,
+     "bestseller": false
+    },
+    {
+     "asin": "B000255OTA",
+     "slug": "zoo-med-repti-basking-spot-100w",
+     "price": 10.98,
+     "rating": 4.2,
+     "ratings": 969,
+     "bestseller": false
+    },
+    {
+     "asin": "B0002DHODG",
+     "slug": "fluker-s-repta-clamp-lamp",
+     "price": 16.99,
+     "rating": 4.6,
+     "ratings": 8733,
+     "bestseller": true
+    },
+    {
+     "asin": "B0G4X9MGB7",
+     "slug": "tetra-reptomin-floating-food-sticks-for",
+     "price": 36.05,
+     "rating": 4.8,
+     "ratings": 21754,
+     "bestseller": true
+    },
+    {
+     "asin": "B000255OSG",
+     "slug": "zoo-med-reptisun-5-uvb-24",
+     "price": 36.84,
+     "rating": 4.4,
+     "ratings": 149,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "2 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B000255OSG",
+     "slug": "zoo-med-reptisun-5-uvb-24",
+     "name": "Zoo Med ReptiSun T8 5.0 UVB Lamp, 24 Inch",
+     "price": 36.84,
+     "line": "Highest-end pick in this Top 10 \u2014 24\" length, 18 watts."
+    },
+    "bang": {
+     "asin": "B0G4X9MGB7",
+     "slug": "tetra-reptomin-floating-food-sticks-for",
+     "name": "Tetra ReptoMin Floating Food Sticks for Aquatic Turtles",
+     "price": 36.05,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 2 lbs."
+    },
+    "value": {
+     "asin": "B00HZDXQJM",
+     "slug": "fluker-s-freeze-dried-river-shrimp",
+     "name": "Fluker's Freeze Dried River Shrimp",
+     "price": 2.78,
+     "line": "Lowest-priced pick in this Top 10, still well rated on Amazon \u2014 1 oz."
+    }
+   }
+  },
+  "flea-tick-prevention": {
+   "site": "petworth",
+   "page": "flea-tick-prevention",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0D69X8CDJ",
+     "slug": "vicsom-flea-collar-for-cats",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B0009F3MLA",
+     "slug": "hartz-ultraguard-flea-tick-collar-for",
+     "price": 3.87,
+     "rating": 4.1,
+     "ratings": 25875,
+     "bestseller": true
+    },
+    {
+     "asin": "B076YHCXPR",
+     "slug": "hartz-ultraguard-pro-reflective-flea-tick",
+     "price": 7.92,
+     "rating": 4.1,
+     "ratings": 14720,
+     "bestseller": true
+    },
+    {
+     "asin": "B00PKJB7Q2",
+     "slug": "tick-key-remover",
+     "price": 7.99,
+     "rating": 4.7,
+     "ratings": 2612,
+     "bestseller": false
+    },
+    {
+     "asin": "B09WJN5XKT",
+     "slug": "wondercide-dog-collar",
+     "price": 19.99,
+     "rating": 3.5,
+     "ratings": 2729,
+     "bestseller": true
+    },
+    {
+     "asin": "B0HF7M573H",
+     "slug": "arncre-flea-and-tick-collar-for",
+     "price": 27.99,
+     "rating": 4.7,
+     "ratings": 34,
+     "bestseller": true
+    },
+    {
+     "asin": "B0FTQ28FWL",
+     "slug": "petarmor-extend-large-dog-flea-and",
+     "price": 44.99,
+     "rating": 4.2,
+     "ratings": 525,
+     "bestseller": true
+    },
+    {
+     "asin": "B00B8CG602",
+     "slug": "seresto-large-dog-collar",
+     "price": 49.99,
+     "rating": 4.5,
+     "ratings": 115123,
+     "bestseller": true
+    },
+    {
+     "asin": "B00B8CG5NK",
+     "slug": "seresto-cat-collar",
+     "price": 49.99,
+     "rating": 4.5,
+     "ratings": 47295,
+     "bestseller": true
+    },
+    {
+     "asin": "B00B8CG58U",
+     "slug": "seresto-small-dog-vet-recommended-flea",
+     "price": 59.92,
+     "rating": 4.4,
+     "ratings": 55037,
+     "bestseller": true
+    }
+   ],
+   "skipped_picks_reason": "1 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B00B8CG58U",
+     "slug": "seresto-small-dog-vet-recommended-flea",
+     "name": "Seresto Small Dog Vet-Recommended Flea & Tick Treatment",
+     "price": 59.92,
+     "line": "Highest-end pick in this Top 10 \u2014 8 months protection."
+    },
+    "bang": {
+     "asin": "B00B8CG602",
+     "slug": "seresto-large-dog-collar",
+     "name": "Seresto Flea & Tick Collar for Dogs Over 18 lbs",
+     "price": 49.99,
+     "line": "Mid-priced and an Amazon Best Seller."
+    },
+    "value": {
+     "asin": "B00PKJB7Q2",
+     "slug": "tick-key-remover",
+     "name": "The Original Tick Key Tick Remover",
+     "price": 7.99,
+     "line": "Among the lowest-priced picks in this Top 10, still well rated on Amazon \u2014 tick detaching device, safe and highly effective tick detaching tool."
+    }
+   }
+  },
+  "puppy-kitten-starter": {
+   "site": "petworth",
+   "page": "puppy-kitten-starter",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0CPPLFQKB",
+     "slug": "wowflash-50-count-30-x-36",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B0052L9Q1Q",
+     "slug": "nylabone-puppy-chew-teething-ring-bone",
+     "price": 3.51,
+     "rating": 4.2,
+     "ratings": 14526,
+     "bestseller": true
+    },
+    {
+     "asin": "B014S1J462",
+     "slug": "gotags-slide-on-id-tag",
+     "price": 5.95,
+     "rating": 3.9,
+     "ratings": 3423,
+     "bestseller": false
+    },
+    {
+     "asin": "B07L72ST5Q",
+     "slug": "cocoyo-best-value-training-pads-30",
+     "price": 7.25,
+     "rating": 4.5,
+     "ratings": 6616,
+     "bestseller": true
+    },
+    {
+     "asin": "B0002AR18C",
+     "slug": "kong-puppy-natural-rubber-teething-chew",
+     "price": 7.46,
+     "rating": 4.6,
+     "ratings": 53574,
+     "bestseller": true
+    },
+    {
+     "asin": "B06XCXJ5D8",
+     "slug": "nylabone-new-puppy-starter-kit",
+     "price": 9.97,
+     "rating": 4.3,
+     "ratings": 15034,
+     "bestseller": true
+    },
+    {
+     "asin": "B0002ZIMDK",
+     "slug": "nylabone-puppy-teething-chew",
+     "price": 13.39,
+     "rating": 4.3,
+     "ratings": 16575,
+     "bestseller": false
+    },
+    {
+     "asin": "B016C6EJ4S",
+     "slug": "amazon-basics-puppy-training-pads",
+     "price": 21.93,
+     "rating": 4.4,
+     "ratings": 220836,
+     "bestseller": false
+    },
+    {
+     "asin": "B07D9XHRZ1",
+     "slug": "purina-kitten-chow",
+     "price": 22.56,
+     "rating": 4.8,
+     "ratings": 2485,
+     "bestseller": false
+    },
+    {
+     "asin": "B07DQ19TW4",
+     "slug": "midwest-puppy-starter-kit-medium",
+     "price": 60.38,
+     "rating": 4.0,
+     "ratings": 51,
+     "bestseller": false
+    }
+   ],
+   "skipped_picks_reason": "1 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B07D9XHRZ1",
+     "slug": "purina-kitten-chow",
+     "name": "Purina Kitten Chow Dry Kitten Food",
+     "price": 22.56,
+     "line": "Among the highest-end picks in this Top 10 \u2014 3.15 lb bags."
+    },
+    "bang": {
+     "asin": "B0002AR18C",
+     "slug": "kong-puppy-natural-rubber-teething-chew",
+     "name": "KONG Puppy, Natural Rubber Teething Chew Toy, for Small",
+     "price": 7.46,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 for small puppies."
+    },
+    "value": {
+     "asin": "B07L72ST5Q",
+     "slug": "cocoyo-best-value-training-pads-30",
+     "name": "COCOYO Best Value Training Pads 30 Count",
+     "price": 7.25,
+     "line": "Among the lowest-priced picks in this Top 10, still well rated on Amazon \u2014 dog pee pads, super absorbent puppy pads."
+    }
+   }
+  },
+  "slow-feeders": {
+   "site": "petworth",
+   "page": "slow-feeders",
+   "checked": "2026-10-04",
+   "dropped": [
+    {
+     "asin": "B0FQC9JN15",
+     "slug": "yipetor-dog-lick-bowl",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0D1FMP3S5",
+     "slug": "feedoo-slow-feeder-dog-bowl-2cups",
+     "why": "not fetched"
+    },
+    {
+     "asin": "B0D4V9V39Y",
+     "slug": "boyoyo-interactive-dog-toys",
+     "why": "not fetched"
+    }
+   ],
+   "notes": [],
+   "prices": [
+    {
+     "asin": "B0C3D1K3YZ",
+     "slug": "keegud-slow-feeder-dog-bowls-insert",
+     "price": 7.19,
+     "rating": 4.3,
+     "ratings": 2182,
+     "bestseller": true
+    },
+    {
+     "asin": "B0787FVCBW",
+     "slug": "outward-hound-slow-feeder",
+     "price": 8.4,
+     "rating": 4.6,
+     "ratings": 116849,
+     "bestseller": true
+    },
+    {
+     "asin": "B0C5HSCS8J",
+     "slug": "mateeylife-2-pack-slow-feeder-dog",
+     "price": 8.99,
+     "rating": 4.6,
+     "ratings": 10271,
+     "bestseller": true
+    },
+    {
+     "asin": "B09FPTDBRZ",
+     "slug": "lukito-lick-mat-for-dogs-cats",
+     "price": 8.99,
+     "rating": 4.4,
+     "ratings": 8727,
+     "bestseller": true
+    },
+    {
+     "asin": "B0GX1H74RX",
+     "slug": "kilin-slow-feeder-dog-licking-bowl",
+     "price": 13.99,
+     "rating": 4.3,
+     "ratings": 2745,
+     "bestseller": true
+    },
+    {
+     "asin": "B0BWDY948D",
+     "slug": "le-tauci-ceramic-slow-feeder-dog",
+     "price": 16.69,
+     "rating": 4.7,
+     "ratings": 3028,
+     "bestseller": true
+    },
+    {
+     "asin": "B0FRV5R62V",
+     "slug": "woof-walkabout-dog-puzzle-slow-feeder",
+     "price": 29.99,
+     "rating": 3.8,
+     "ratings": 349,
+     "bestseller": true
+    }
+   ],
+   "skipped_picks_reason": "3 Top 10 item(s) not priced before Amazon access was stopped; badges not shipped",
+   "draft_picks_incomplete_data": {
+    "premium": {
+     "asin": "B0BWDY948D",
+     "slug": "le-tauci-ceramic-slow-feeder-dog",
+     "name": "LE TAUCI Ceramic Slow Feeder Dog Bowls Small Breed",
+     "price": 16.69,
+     "line": "Among the highest-end picks in this Top 10 \u2014 0.6 cups dog food dish for fast eaters, puzzle bowl for small dogs and cats."
+    },
+    "bang": {
+     "asin": "B0C5HSCS8J",
+     "slug": "mateeylife-2-pack-slow-feeder-dog",
+     "name": "MateeyLife 2-Pack Slow Feeder Dog Bowls",
+     "price": 8.99,
+     "line": "Mid-priced and an Amazon Best Seller \u2014 2 cups, dog puzzle feeder bowl."
+    },
+    "value": {
+     "asin": "B0C3D1K3YZ",
+     "slug": "keegud-slow-feeder-dog-bowls-insert",
+     "name": "Keegud Slow Feeder Dog Bowls Insert [Octopus Suction Cups]",
+     "price": 7.19,
+     "line": "Lowest-priced pick in this Top 10 \u2014 regular and elevated dog bowls."
+    }
+   }
+  }
+ }
+}
