@@ -72,7 +72,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <Analytics />
-      </body>
+      <script src="https://theworthguide.com/visit.js" defer></script></body>
     </html>
   );
 }
