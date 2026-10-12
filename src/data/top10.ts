@@ -52,3 +52,53 @@ export function getTopPicks(category: string): Product[] {
     .map((s) => products.find((p) => p.slug === s))
     .filter((p): p is Product => Boolean(p));
 }
+
+export const PICKS: Record<string, { best: string; premium: string; value: string }> = {
+  "dog-beds-crates": { best: "furhaven-orthopedic-dog-bed", premium: "bedsure-orthopedic-dog-bed", value: "jollyvogue-small-dog-bed" },
+  "cat-trees-scratchers": { best: "feandrea-cat-tree", premium: "smartcat-ultimate-scratching-post", value: "kitty-city-xl-scratch-pads" },
+  "feeders-fountains": { best: "petsafe-drinkwell-platinum", premium: "petlibro-automatic-feeder", value: "frisco-double-diner" },
+  "leashes-harnesses-collars": { best: "rabbitgoo-no-pull-harness", premium: "blue-9-balance-harness", value: "joytale-reflective-dog-leash-for-medium" },
+  "grooming": { best: "furminator-deshedding-tool", premium: "furminator-cat-deshedding", value: "cooncicy-deshedding-brush-for-cat-small" },
+  "toys-enrichment": { best: "kong-classic", premium: "kong-wobbler", value: "chuckit-ultra-ball" },
+  "travel": { best: "sherpa-original-deluxe-carrier", premium: "sleepypod-mobile-pet-bed", value: "lehni-soft-sided-cat-dog-pet" },
+  "litter": { best: "modkat-litter-box", premium: "petsafe-scoopfree-litter-box", value: "petmate-basic-open-plastic-cat-litter" },
+  "training-waste": { best: "petsafe-busy-buddy-tug-a-jug", premium: "glad-for-pets-activated-carbon-disposable", value: "cocoyo-best-value-22-x22-dog" },
+  "health-wellness": { best: "thundershirt-anxiety-vest", premium: "purina-pro-plan-veterinary-supplements-calming", value: "juwantu-dog-toothbrush-set-of-8" },
+  "aquatics-aquarium": { best: "aqueon-20-gallon-led-starter-kit", premium: "fluval-c3-power-filter", value: "tetra-goldfish-flakes-fish-food" },
+  "small-pets": { best: "oxbow-western-timothy-hay", premium: "critter-nation-by-midwest-double-unit", value: "oxbow-essentials-adult-rabbit-food" },
+  "bird-supplies": { best: "prevue-parakeet-starter-cage", premium: "viscoo-upgraded-encrypted-metal-46-inch", value: "a-e-cage-company-vitapol-smakers" },
+  "reptile-supplies": { best: "zoo-med-reptisun-5-uvb-24", premium: "zoo-med-repti-basking-spot-100w", value: "fluker-s-incandescent-basking-spotlight-bulbs" },
+  "flea-tick-prevention": { best: "seresto-large-dog-collar", premium: "seresto-cat-collar", value: "tick-key-remover" },
+  "puppy-kitten-starter": { best: "midwest-puppy-starter-kit-medium", premium: "amazon-basics-puppy-training-pads", value: "nylabone-puppy-chew-teething-ring-bone" },
+  "slow-feeders": { best: "outward-hound-slow-feeder", premium: "woof-walkabout-dog-puzzle-slow-feeder", value: "keegud-slow-feeder-dog-bowls-insert" },
+};
+
+export function getThreePicks(category: string) {
+  const m = PICKS[category];
+  if (!m) return null;
+  const find = (s: string) => products.find((p) => p.slug === s);
+  const best = find(m.best), premium = find(m.premium), value = find(m.value);
+  if (!best || !premium || !value) return null;
+  return { best, premium, value };
+}
+
+/** Home page Top 10: the Best Overall pick from ten of the seventeen pet categories (dog and cat essentials first). */
+export const HOME_TOP10: { category: string; role: "best" | "premium" }[] = [
+  { category: "dog-beds-crates", role: "best" },
+  { category: "cat-trees-scratchers", role: "best" },
+  { category: "feeders-fountains", role: "best" },
+  { category: "leashes-harnesses-collars", role: "best" },
+  { category: "grooming", role: "best" },
+  { category: "toys-enrichment", role: "best" },
+  { category: "travel", role: "best" },
+  { category: "litter", role: "best" },
+  { category: "health-wellness", role: "best" },
+  { category: "slow-feeders", role: "best" },
+];
+export const HOME_TOP10_CATEGORIES = HOME_TOP10.map((h) => h.category);
+
+export function getHomeTop10(): Product[] {
+  return HOME_TOP10.map((h) => products.find((p) => p.slug === PICKS[h.category][h.role])).filter(
+    (p): p is Product => Boolean(p),
+  );
+}

@@ -3,7 +3,6 @@ export type CompareRow = {
   bestFor: string;
   loftOrFeel: string;
   cooling: string;
-  priceBand: string;
   skipIf: string;
 };
 
@@ -30,7 +29,6 @@ export const compares: CompareTable[] = [
       { key: "bestFor", label: "Best for" },
       { key: "loftOrFeel", label: "Feel / setup" },
       { key: "cooling", label: "Notes" },
-      { key: "priceBand", label: "Price band" },
       { key: "skipIf", label: "Skip if" },
     ],
     rows: [
@@ -39,7 +37,6 @@ export const compares: CompareTable[] = [
         bestFor: "Seniors / nestlers",
         loftOrFeel: "Egg-crate + bolster",
         cooling: "Cover washable",
-        priceBand: "About $35–$80",
         skipIf: "Dog shreds fabric beds",
       },
       {
@@ -47,7 +44,6 @@ export const compares: CompareTable[] = [
         bestFor: "Heavy dogs flattening thin beds",
         loftOrFeel: "Thicker foam slab",
         cooling: "Removable cover",
-        priceBand: "About $40–$90",
         skipIf: "You need a flat crate pad only",
       },
       {
@@ -55,7 +51,6 @@ export const compares: CompareTable[] = [
         bestFor: "House-training / travel enclosure",
         loftOrFeel: "Wire crate + divider",
         cooling: "Add a crate pad",
-        priceBand: "About $40–$120",
         skipIf: "You want furniture-style only",
       },
     ],
@@ -74,7 +69,6 @@ export const compares: CompareTable[] = [
       { key: "bestFor", label: "Best for" },
       { key: "loftOrFeel", label: "Fit / clips" },
       { key: "cooling", label: "Build" },
-      { key: "priceBand", label: "Price band" },
       { key: "skipIf", label: "Skip if" },
     ],
     rows: [
@@ -83,7 +77,6 @@ export const compares: CompareTable[] = [
         bestFor: "Budget pullers",
         loftOrFeel: "Front + back D-rings",
         cooling: "Reflective straps",
-        priceBand: "About $18–$30",
         skipIf: "You need trail durability",
       },
       {
@@ -91,7 +84,6 @@ export const compares: CompareTable[] = [
         bestFor: "Daily miles / light trails",
         loftOrFeel: "Padded dual-clip",
         cooling: "Hike-ready hardware",
-        priceBand: "About $40–$60",
         skipIf: "Puppy still growing fast",
       },
       {
@@ -99,7 +91,6 @@ export const compares: CompareTable[] = [
         bestFor: "Odd proportions / escapes",
         loftOrFeel: "Multi-point Y-fit",
         cooling: "Trainer favorite",
-        priceBand: "About $45–$65",
         skipIf: "You want simplest on/off",
       },
     ],
@@ -118,7 +109,6 @@ export const compares: CompareTable[] = [
       { key: "bestFor", label: "Best for" },
       { key: "loftOrFeel", label: "Capacity / style" },
       { key: "cooling", label: "Upkeep" },
-      { key: "priceBand", label: "Price band" },
       { key: "skipIf", label: "Skip if" },
     ],
     rows: [
@@ -127,7 +117,6 @@ export const compares: CompareTable[] = [
         bestFor: "Multi-pet / high volume",
         loftOrFeel: "Large reservoir",
         cooling: "Filter + weekly scrub",
-        priceBand: "About $50–$80",
         skipIf: "Tiny counter space only",
       },
       {
@@ -135,7 +124,6 @@ export const compares: CompareTable[] = [
         bestFor: "Timed dry meals (not water)",
         loftOrFeel: "Scheduled kibble",
         cooling: "Different job than fountains",
-        priceBand: "About $50–$120",
         skipIf: "You only need water movement",
       },
     ],
@@ -154,7 +142,6 @@ export const compares: CompareTable[] = [
       { key: "bestFor", label: "Best for" },
       { key: "loftOrFeel", label: "Form" },
       { key: "cooling", label: "Trip type" },
-      { key: "priceBand", label: "Price band" },
       { key: "skipIf", label: "Skip if" },
     ],
     rows: [
@@ -163,7 +150,6 @@ export const compares: CompareTable[] = [
         bestFor: "Cabin flights / vet runs",
         loftOrFeel: "Soft-sided underseat class",
         cooling: "Airline dimension check",
-        priceBand: "About $50–$90",
         skipIf: "You need crash-tested car primary",
       },
       {
@@ -171,7 +157,6 @@ export const compares: CompareTable[] = [
         bestFor: "Car-first travel",
         loftOrFeel: "Premium soft structured",
         cooling: "Automotive focus",
-        priceBand: "About $150–$250",
         skipIf: "Budget underseat bag only",
       },
       {
@@ -179,7 +164,6 @@ export const compares: CompareTable[] = [
         bestFor: "Road trips / home base crate",
         loftOrFeel: "Folding wire",
         cooling: "Secure in vehicle properly",
-        priceBand: "About $40–$120",
         skipIf: "Airline cabin underseat needed",
       },
     ],

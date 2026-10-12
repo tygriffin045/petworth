@@ -9,6 +9,7 @@ import {
 } from "@/data/products";
 import { getCategory } from "@/data/categories";
 import { AffiliateButton } from "@/components/AffiliateButton";
+import { TierBadge } from "@/components/TierBadge";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { ProductCard } from "@/components/ProductCard";
 import { JsonLd } from "@/components/JsonLd";
@@ -56,19 +57,6 @@ export default async function ProductPage({ params }: Props) {
   const category = getCategory(product.category);
   const related = getRelatedProducts(product);
   const productUrl = `${SITE_URL}/products/${product.slug}`;
-  const imageAbs = product.imageUrl
-    ? product.imageUrl.startsWith("http")
-      ? product.imageUrl
-      : `${SITE_URL}${product.imageUrl}`
-    : undefined;
-  const productLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    description: product.summary,
-    brand: { "@type": "Brand", name: product.brand },
-    ...(imageAbs ? { image: [imageAbs] } : {}),
-  };
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -107,7 +95,7 @@ export default async function ProductPage({ params }: Props) {
 
   return (
     <div className="space-y-12">
-      <JsonLd data={[productLd, breadcrumbLd]} />
+      <JsonLd data={breadcrumbLd} />
       <nav className="text-sm text-slate-500">
         <Link href="/products" className="hover:text-slate-800">
           Products
@@ -146,7 +134,7 @@ export default async function ProductPage({ params }: Props) {
                   {product.name}
                 </span>
                 <br />
-                Check the live Amazon listing for current photos and pricing.
+                Check the live Amazon listing for current photos and details.
               </p>
             </div>
           )}
@@ -168,6 +156,9 @@ export default async function ProductPage({ params }: Props) {
             {product.name}
           </h1>
           <p className="mt-1 text-sm text-slate-500">{product.brand}</p>
+          <p className="mt-2 text-sm text-slate-600">
+            Budget tier: <TierBadge tier={product.tier} />
+          </p>
           <AffiliateNote />
           <p className="mt-4 text-lg text-slate-600">{product.tagline}</p>
           <AffiliateButton

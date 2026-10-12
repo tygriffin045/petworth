@@ -17,7 +17,7 @@ export type CategorySlug =
   | "puppy-kitten-starter"
   | "slow-feeders";
 
-export type BudgetBand = "budget" | "mid" | "premium";
+export type BudgetTier = "$" | "$$" | "$$$";
 
 export interface ProductSpec {
   label: string;
@@ -33,10 +33,8 @@ export interface Product {
   bestFor: string;
   tagline: string;
   summary: string;
-  priceBand: string;
-  budget: BudgetBand;
-  priceMin: number;
-  priceMax: number;
+  /** Budget tier from internal per-category price thresholds (lower/middle/top third; cheap categories capped at $$). Never show prices. */
+  tier: BudgetTier;
   imageGradient: string;
   imageAlt: string;
   imageUrl?: string;
