@@ -6,7 +6,8 @@ import { guides } from "@/data/guides";
 import { hubs } from "@/data/hubs";
 import { compares } from "@/data/compares";
 import { ProductCard } from "@/components/ProductCard";
-import { TopRail } from "@/components/TopRail";
+import { HomeTop10 } from "@/components/HomeTop10";
+import { getHomeTop10, HOME_TOP10_CATEGORIES } from "@/data/top10";
 import { TrustStrip } from "@/components/TrustStrip";
 import { AffiliateNote } from "@/components/AffiliateNote";
 
@@ -17,8 +18,28 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const featured = getFeaturedProducts();
 
+  const top10 = getHomeTop10();
+  const top10Labels = HOME_TOP10_CATEGORIES.map((c) => ({
+    name: categories.find((x) => x.slug === c)?.name ?? c,
+    href: `/category/${c}`,
+  }));
   return (
     <div className="space-y-16">
+      <section>
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700">
+          PetWorth Top 10
+        </p>
+        <h1 className="mt-2 font-serif text-4xl leading-tight text-stone-900 sm:text-5xl">
+          The 10 pet picks we&apos;d buy first
+        </h1>
+        <p className="mt-3 max-w-2xl text-stone-600">
+          The Best Overall pick from ten of our pet categories, with real pros and
+          cons. Budget tiers: $ budget · $$ mid-range · $$$ premium.
+        </p>
+        <AffiliateNote className="mt-3" />
+        <HomeTop10 items={top10} labels={top10Labels} />
+      </section>
+
       <section className="relative overflow-hidden rounded-3xl border border-emerald-200/60 bg-[#e7efe8] px-6 py-14 sm:px-12 sm:py-20">
         <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-emerald-400/20 blur-3xl" />
         <div className="absolute -bottom-20 left-1/3 h-56 w-56 rounded-full bg-amber-300/15 blur-3xl" />
@@ -26,9 +47,9 @@ export default function HomePage() {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700">
             Pet gear, pressure-tested
           </p>
-          <h1 className="mt-3 font-serif text-4xl leading-tight text-stone-900 sm:text-5xl">
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-stone-900 sm:text-5xl">
             Honest picks for happier pets
-          </h1>
+          </h2>
           <p className="mt-4 text-lg text-stone-600">
             We edit dog and cat gear — beds and crates, cat trees, feeders and
             fountains, harnesses, grooming, toys, travel carriers, litter,
@@ -36,7 +57,6 @@ export default function HomePage() {
             who each pick is for, and what we would skip. No invented brand
             scores.
           </p>
-          <AffiliateNote className="mt-3" />
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/products"
@@ -54,7 +74,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <TopRail />
 
       <section>
         <h2 className="font-serif text-3xl text-stone-900">Vs reviews</h2>

@@ -28,6 +28,7 @@ export function AffiliateButton({
         href={href}
         target="_blank"
         rel="nofollow sponsored noopener noreferrer"
+        aria-label={`Check price on Amazon: ${productName}`}
         className="inline-flex w-full items-center justify-center rounded-full bg-emerald-700 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-800 sm:w-auto"
         onClick={() =>
           track("amazon_outbound_click", {
@@ -39,7 +40,6 @@ export function AffiliateButton({
       >
         {"Check price on Amazon"}
       </a>
-      <span className="sr-only">{productName}</span>
     </div>
   );
 }

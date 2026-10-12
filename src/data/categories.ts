@@ -62,7 +62,7 @@ export const categories: Category[] = [
     name: "Training & Waste",
     shortLabel: "Training",
     description:
-      "Poop bags that do not rip mid-walk, treat pouches, and remote treat trainers for calm focus work. Gear supports training — it does not replace consistency.",
+      "Potty pads for house-training puppies, crate zones, and senior dogs, plus a treat-dispensing jug for crate practice. Pads support training — they do not replace an outdoor routine.",
   },
   {
     slug: "health-wellness",
@@ -83,7 +83,7 @@ export const categories: Category[] = [
     name: "Small Pets",
     shortLabel: "Small pets",
     description:
-      "Habitats, hay, bedding, and care gear for rabbits, guinea pigs, hamsters, and similar companions. Floor space beats stacked tubes; unlimited grass hay for herbivores; paper bedding over dusty cedar. Species needs differ — read before you cart.",
+      "Hay, pellets, and habitats for rabbits, guinea pigs, hamsters, and similar companions. Our three picks are all food: unlimited grass hay first, then species-specific pellets; cages are ranked in the list below. Species needs differ — read before you cart.",
   },
   {
     slug: "bird-supplies",
@@ -104,14 +104,14 @@ export const categories: Category[] = [
     name: "Flea & Tick Prevention",
     shortLabel: "Flea & tick",
     description:
-      "OTC collars, topicals, sprays, and fast-acting tablets framed as prevention gear — not veterinary prescriptions or medical advice. Read labels for species, weight, and age limits. Ask your vet which protocol fits your pet and region.",
+      "OTC flea and tick collars, plus a tick-removal add-on — shopping guidance, not veterinary advice. Read labels for species, weight, and age limits, and ask your vet which protocol fits your pet and region.",
   },
   {
     slug: "puppy-kitten-starter",
     name: "Puppy & Kitten Starter",
     shortLabel: "Puppy & kitten",
     description:
-      "Pads, teething chews, soft puppy KONGs, clickers, and first-week basics for new arrivals. Soft materials for baby teeth; size up as they grow; supervise everything chewable. Starter gear is temporary — plan replacements.",
+      "Teething chews, a soft puppy KONG, a starter kit, kitten food, and ID tags for new arrivals (potty pads are in Training & Waste). Soft materials for baby teeth; size up as they grow; supervise everything chewable.",
   },
   {
     slug: "slow-feeders",
