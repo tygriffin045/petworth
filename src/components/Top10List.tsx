@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Product } from "@/data/types";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { TierBadge } from "@/components/TierBadge";
+import { ADDONS } from "@/data/top10";
 
 /** Ranked Top 10 with pros and cons for every product. */
 export function Top10List({
@@ -58,6 +59,11 @@ export function Top10List({
                     {p.name}
                   </Link>{" "}
                   <TierBadge tier={p.tier} className="ml-1 align-middle" />
+                  {ADDONS.has(p.slug) && (
+                    <span className="ml-2 rounded-full bg-stone-100 px-2 py-0.5 align-middle text-xs font-semibold uppercase tracking-wider text-stone-600">
+                      Add-on
+                    </span>
+                  )}
                 </h3>
                 <p className="mt-1 text-sm text-stone-600">{p.tagline}</p>
                 <div className="mt-4 grid gap-4 md:grid-cols-2">

@@ -30,7 +30,7 @@ export function BadgePicks({ category }: { category: string }) {
         Our three picks
       </h2>
       <p className="mt-1 text-sm text-stone-600">
-        Chosen from the Top 10 below. Budget tiers: $ budget · $$ mid-range · $$$ premium.
+        Chosen from the ranked list below. Budget tiers: $ budget · $$ mid-range · $$$ premium.
       </p>
       <div className="mt-5 grid gap-5 sm:grid-cols-3">
         {rows.map(({ kind, p }) => (
