@@ -72,12 +72,18 @@ export const TOP10_SHORT: Record<string, string> = {
   "puppy-kitten-starter": "Pads moved to Training & Waste so the two lists don't overlap",
 };
 
-export const PICKS: Record<string, { best: string; premium: string; value: string }> = {
+/**
+ * Picks per category. `second` is normally Premium; a category may instead use a species-alternate
+ * slot ("forCats"), in which case the Premium tier rule does not apply to that slot.
+ */
+export type SecondSlot = "premium" | "forCats";
+export const SECOND_SLOT_LABEL: Record<SecondSlot, string> = { premium: "Premium Pick", forCats: "For cats" };
+export const PICKS: Record<string, { best: string; premium: string; value: string; second?: SecondSlot }> = {
   "dog-beds-crates": { best: "furhaven-orthopedic-dog-bed", premium: "bedsure-orthopedic-dog-bed", value: "jollyvogue-small-dog-bed" },
   "cat-trees-scratchers": { best: "feandrea-cat-tree", premium: "smartcat-ultimate-scratching-post", value: "kitty-city-xl-scratch-pads" },
   "feeders-fountains": { best: "petsafe-drinkwell-platinum", premium: "petlibro-automatic-feeder", value: "frisco-double-diner" },
   "leashes-harnesses-collars": { best: "rabbitgoo-no-pull-harness", premium: "blue-9-balance-harness", value: "joytale-reflective-dog-leash-for-medium" },
-  "grooming": { best: "furminator-deshedding-tool", premium: "furminator-cat-deshedding", value: "cooncicy-deshedding-brush-for-cat-small" },
+  "grooming": { best: "furminator-deshedding-tool", premium: "furminator-cat-deshedding", value: "cooncicy-deshedding-brush-for-cat-small", second: "forCats" },
   "toys-enrichment": { best: "kong-classic", premium: "kong-wobbler", value: "chuckit-ultra-ball" },
   "travel": { best: "sherpa-original-deluxe-carrier", premium: "sleepypod-mobile-pet-bed", value: "lehni-soft-sided-cat-dog-pet" },
   "litter": { best: "modkat-litter-box", premium: "petsafe-scoopfree-litter-box", value: "petmate-basic-open-plastic-cat-litter" },
@@ -87,7 +93,7 @@ export const PICKS: Record<string, { best: string; premium: string; value: strin
   "small-pets": { best: "oxbow-western-timothy-hay", premium: "oxbow-essentials-guinea-pig-food", value: "oxbow-essentials-adult-rabbit-food" },
   "bird-supplies": { best: "prevue-parakeet-starter-cage", premium: "viscoo-upgraded-encrypted-metal-46-inch", value: "a-e-cage-company-vitapol-smakers" },
   "reptile-supplies": { best: "zoo-med-reptisun-5-uvb-24", premium: "zoo-med-repti-basking-spot-100w", value: "fluker-s-incandescent-basking-spotlight-bulbs" },
-  "flea-tick-prevention": { best: "seresto-large-dog-collar", premium: "seresto-cat-collar", value: "petarmor-extend-large-dog-flea-and" },
+  "flea-tick-prevention": { best: "seresto-large-dog-collar", premium: "seresto-cat-collar", value: "petarmor-extend-large-dog-flea-and", second: "forCats" },
   "puppy-kitten-starter": { best: "kong-puppy-natural-rubber-teething-chew", premium: "midwest-puppy-starter-kit-medium", value: "nylabone-puppy-chew-teething-ring-bone" },
   "slow-feeders": { best: "outward-hound-slow-feeder", premium: "woof-walkabout-dog-puzzle-slow-feeder", value: "keegud-slow-feeder-dog-bowls-insert" },
 };
@@ -98,7 +104,7 @@ export function getThreePicks(category: string) {
   const find = (s: string) => products.find((p) => p.slug === s);
   const best = find(m.best), premium = find(m.premium), value = find(m.value);
   if (!best || !premium || !value) return null;
-  return { best, premium, value };
+  return { best, premium, value, second: (m.second ?? "premium") as SecondSlot };
 }
 
 /** Home page Top 10: the Best Overall pick from ten of the seventeen pet categories (dog and cat essentials first). */

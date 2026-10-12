@@ -48,18 +48,20 @@ for (const c of categories) {
   const pk = PICKS[c.slug];
   if (!pk) { errors.push(`${c.slug}: missing picks`); continue; }
   if (list[0] !== pk.best) errors.push(`${c.slug}: Best Overall ${pk.best} is not #1 in Top 10`);
-  for (const [k, s] of Object.entries(pk)) {
+  for (const [k, s] of Object.entries(pk).filter(([k]) => k !== "second")) {
     if (!slugs.has(s)) errors.push(`${c.slug}: ${k} pick not found: ${s}`);
     else if (!list.includes(s)) errors.push(`${c.slug}: ${k} pick ${s} not in Top 10`);
   }
   const R: Record<string, number> = { $: 1, $$: 2, $$$: 3 };
   const bySlug = (x: string) => products.find((p) => p.slug === x);
   const [b, pr, v] = [bySlug(pk.best), bySlug(pk.premium), bySlug(pk.value)];
-  if (b && pr && R[pr.tier] < R[b.tier]) errors.push(`${c.slug}: Premium ${pr.slug} (${pr.tier}) is below Best Overall ${b.slug} (${b.tier})`);
+  if (pk.second && pk.second !== "forCats") errors.push(`${c.slug}: unknown second slot ${pk.second}`);
+  if (pk.second === "forCats" && pr && !/\bcats?\b/i.test(pr.name)) errors.push(`${c.slug}: For cats pick ${pr.slug} is not a cat product`);
+  if ((pk.second ?? "premium") === "premium" && b && pr && R[pr.tier] < R[b.tier]) errors.push(`${c.slug}: Premium ${pr.slug} (${pr.tier}) is below Best Overall ${b.slug} (${b.tier})`);
   const top = getTopPicks(c.slug);
-  for (const [k, s] of Object.entries(pk)) if (ADDONS.has(s)) errors.push(`${c.slug}: ${k} pick ${s} is an add-on`);
+  for (const [k, s] of Object.entries(pk).filter(([k]) => k !== "second")) if (ADDONS.has(s)) errors.push(`${c.slug}: ${k} pick ${s} is an add-on`);
   if (v && top.some((p) => p.tier === "$" && !ADDONS.has(p.slug)) && v.tier !== "$") errors.push(`${c.slug}: Value ${v.slug} is ${v.tier} but the Top 10 has a $ item`);
-  if (new Set(Object.values(pk)).size !== 3) errors.push(`${c.slug}: picks are not 3 distinct products`);
+  if (new Set([pk.best, pk.premium, pk.value]).size !== 3) errors.push(`${c.slug}: picks are not 3 distinct products`);
 }
 // Tier order: within a category, a cheaper product (internal reference figure) may never sit in a
 // higher tier than a pricier one, and tied figures share a tier.

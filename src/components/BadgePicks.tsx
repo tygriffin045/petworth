@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Product } from "@/data/types";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { TierBadge } from "@/components/TierBadge";
-import { getThreePicks } from "@/data/top10";
+import { getThreePicks, SECOND_SLOT_LABEL } from "@/data/top10";
 
 const BADGE = {
   best: { label: "Best Overall", cls: "bg-emerald-800 text-white" },
@@ -42,7 +42,7 @@ export function BadgePicks({ category }: { category: string }) {
             <span
               className={`self-start rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide ${BADGE[kind].cls}`}
             >
-              {BADGE[kind].label}
+              {kind === "premium" ? SECOND_SLOT_LABEL[picks.second] : BADGE[kind].label}
             </span>
             {p.imageUrl && (
               <div className="relative mt-3 aspect-square w-full overflow-hidden rounded-lg bg-stone-50">
