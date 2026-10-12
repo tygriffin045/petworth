@@ -573,6 +573,227 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "best-slow-feeder-dog-bowls",
+    title: "Best Slow Feeder Dog Bowls for Fast Eaters",
+    seoTitle: "Best Slow Feeder Dog Bowls for Fast Eaters (2026)",
+    metaDescription:
+      "Outward Hound maze, Feedoo stainless, LE TAUCI ceramic, MateeyLife 2-pack, Keegud insert, and when to skip to a Neater Feeder for spills — slow feeder picks for dogs that inhale meals.",
+    description:
+      "A maze bowl slows dinner. Stainless and ceramic hold up better for daily washes. Inserts retrofit the bowl you already own. Here is how to pick for a dog that finishes in under a minute.",
+    readingTime: "8 min read",
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    productSlugs: [
+      "outward-hound-slow-feeder",
+      "feedoo-slow-feeder-dog-bowl-2cups",
+      "le-tauci-ceramic-slow-feeder-dog",
+      "mateeylife-2-pack-slow-feeder-dog",
+      "keegud-slow-feeder-dog-bowls-insert",
+      "neater-feeder-deluxe",
+    ],
+    categorySlugs: ["slow-feeders", "feeders-fountains"],
+    quickPicks: [
+      {
+        label: "Best starter maze",
+        productSlug: "outward-hound-slow-feeder",
+        note: "Cheap plastic maze to test whether slowing meals helps.",
+      },
+      {
+        label: "Best stainless for medium",
+        productSlug: "feedoo-slow-feeder-dog-bowl-2cups",
+        note: "Double-wall stainless, ~2 cups, non-slip base.",
+      },
+      {
+        label: "Best ceramic / small breed",
+        productSlug: "le-tauci-ceramic-slow-feeder-dog",
+        note: "Heavy ceramic puzzle bowl sized for small dogs and cats.",
+      },
+      {
+        label: "Best budget 2-pack",
+        productSlug: "mateeylife-2-pack-slow-feeder-dog",
+        note: "Two polypropylene maze bowls, ~2 cups each.",
+      },
+      {
+        label: "Best insert for existing bowl",
+        productSlug: "keegud-slow-feeder-dog-bowls-insert",
+        note: "Food-grade silicone insert with octopus suction cups.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Slow the meal, don't invent a new problem",
+        body: "A slow feeder only works if your dog will still eat from it and you can wash it. Start with a cheap maze (Outward Hound or MateeyLife) before spending on stainless or ceramic. Skip maze bowls if your dog guards food or flips bowls — that is a different problem. We may earn a commission from qualifying purchases.",
+      },
+      {
+        heading: "How to choose",
+        body: "Testing the idea: Outward Hound or MateeyLife 2-pack. Medium dog, durable daily wash: Feedoo stainless (~2 cups). Small breed / ceramic preference: LE TAUCI. Want to keep your current bowl: Keegud silicone insert. Need spill control and elevation more than a maze: Neater Feeder Deluxe (related, not a slow feeder).",
+      },
+    ],
+    picks: [
+      {
+        productSlug: "outward-hound-slow-feeder",
+        heading: "Outward Hound: best starter maze",
+        verdict:
+          "A plastic maze bowl that makes dinner take longer. It is the cheap test for dogs that finish a bowl in under a minute. Wash it. It will not fix a dog that guards food.",
+        pros: [
+          "Cheap test",
+          "Dishwasher safe on many listings",
+          "Slows a fast eater",
+        ],
+        cons: [
+          "Plastic holds smell",
+          "Not for a dog that flips bowls",
+          "Wrong size wastes food",
+        ],
+        suits: "Dogs that finish a bowl in under a minute.",
+        skip: "Your dog guards food or flips bowls. A maze bowl will not fix that.",
+        checked: "Checked Amazon listing data in our catalog (ASIN B0787FVCBW). Check the current price on Amazon.",
+      },
+      {
+        productSlug: "feedoo-slow-feeder-dog-bowl-2cups",
+        heading: "Feedoo: best stainless for medium",
+        verdict:
+          "Flower-shaped hump design in double-wall food-grade stainless steel with a non-slip rubber base. Holds up to about 2 cups (480 ml) for small and medium dogs; dishwasher safe and rust-resistant per the listing. We have not tested it hands-on.",
+        pros: [
+          "Flower-shaped hump slows eating speed",
+          "Double-wall 304 stainless — heavy and stable",
+          "Dishwasher safe; holds up to 2 cups",
+          "Non-slip rubber base",
+        ],
+        cons: [
+          "Not tested hands-on by us yet; details come from the Amazon listing",
+          "Sizes, colors, and bundles vary by listing option",
+        ],
+        suits: "Small and medium dogs that need a durable stainless slow feeder.",
+        skip: "You need a specific size, material, or feature this listing does not offer.",
+        checked: "Catalog notes from Oct 3, 2026 Amazon Best Sellers check (#9 Dog Slow Feeders). Check the current price on Amazon.",
+      },
+      {
+        productSlug: "le-tauci-ceramic-slow-feeder-dog",
+        heading: "LE TAUCI: best ceramic / small breed",
+        verdict:
+          "Premium ceramic slow feeder for small breeds (listing also mentions cats), about 0.6 cups / puzzle style, heavy (~0.45 kg) with a non-slip base so the bowl is harder to shove. Smooth surface for cleaning. Confirm capacity fits your dog's meal size.",
+        pros: [
+          "Premium ceramic; Climate Pledge Friendly callout on the listing",
+          "Heavy (~0.45 kg) with non-slip base",
+          "Smooth surface, easy to clean",
+          "Sized for small dogs (and cats per the listing)",
+        ],
+        cons: [
+          "Not tested hands-on by us yet; details come from the Amazon listing",
+          "Small capacity — wrong pick for larger meals",
+          "Sizes, colors, and bundles vary by listing option",
+        ],
+        suits: "Small-breed fast eaters (and some cats) who do better with ceramic weight.",
+        skip: "You need a specific size, material, or feature this listing does not offer.",
+        checked: "Catalog notes from Oct 3, 2026 Amazon Best Sellers check (#7 Dog Slow Feeders). Check the current price on Amazon.",
+      },
+      {
+        productSlug: "mateeylife-2-pack-slow-feeder-dog",
+        heading: "MateeyLife: best budget 2-pack",
+        verdict:
+          "Two polypropylene puzzle / maze bowls (~2 cups) with ridges that the listing says can slow eating dramatically, plus a non-slide base. Works with dry, wet, and raw diets per the listing. Strong Best Sellers footprint when we checked — still confirm the exact size/color bundle.",
+        pros: [
+          "2-pack maze / puzzle bowls with ridges",
+          "About 2 cups capacity; non-slide base",
+          "Works with dry, wet, and raw food per the listing",
+        ],
+        cons: [
+          "Not tested hands-on by us yet; details come from the Amazon listing",
+          "Plastic can hold smell over time (same class as other plastic mazes)",
+          "Sizes, colors, and bundles vary by listing option",
+        ],
+        suits: "Budget shoppers who want a spare bowl or a second maze pattern.",
+        skip: "You need a specific size, material, or feature this listing does not offer.",
+        checked: "Catalog notes from Oct 3, 2026 Amazon Best Sellers check (#4 Dog Slow Feeders). Check the current price on Amazon.",
+      },
+      {
+        productSlug: "keegud-slow-feeder-dog-bowls-insert",
+        heading: "Keegud: best insert for an existing bowl",
+        verdict:
+          "Food-grade silicone insert that presses into the bottom of your current dog bowl with 36 octopus-style suction cups. Listing fits bowls with bottom diameter about 5.5–7 in (opening 5.5–8.5 in) and can be cut to fit. Soft, for wet and dry food. We have not tested suction longevity hands-on.",
+        pros: [
+          "Press-to-attach silicone insert — keeps your existing bowl",
+          "Food-grade silicone; soft for daily wet and dry food",
+          "36 suction cups; cut-to-fit guidance on the listing",
+        ],
+        cons: [
+          "Not tested hands-on by us yet; details come from the Amazon listing",
+          "Only works if your bowl diameter matches the fit range",
+          "Sizes, colors, and bundles vary by listing option",
+        ],
+        suits: "Owners who already like their bowl and only need a slow-down insert.",
+        skip: "You need a specific size, material, or feature this listing does not offer.",
+        checked: "Catalog notes from Oct 3, 2026 Amazon Best Sellers check (#14 Dog Slow Feeders). Check the current price on Amazon.",
+      },
+      {
+        productSlug: "neater-feeder-deluxe",
+        heading: "Neater Feeder Deluxe: skip if you need spill control (not a slow feeder)",
+        verdict:
+          "Related pick, not a maze slow feeder. Stainless bowls in a raised frame with a splash tray that catches kibble and water dribbles — useful for messy drinkers and floors you refuse to mop daily. Larger footprint; tray still needs washing. Confirm height for your dog.",
+        pros: [
+          "Contains spills",
+          "Elevated option",
+          "Made-in-USA brand story",
+        ],
+        cons: [
+          "Larger footprint",
+          "Tray still needs washing",
+          "Does not replace a maze if speed-eating is the only problem",
+        ],
+        suits: "Messy drinkers and households protecting hardwood floors.",
+        skip: "You only need a single cheap stainless bowl — do not overbuy. Also skip if you specifically need a slow-feeder maze.",
+        checked: "Catalog product notes. Check the current price on Amazon.",
+      },
+    ],
+    criteria: [
+      {
+        heading: "Capacity vs meal size",
+        body: "LE TAUCI is a small-breed ~0.6 cup class bowl. Feedoo and MateeyLife are about 2 cups. Outward Hound sizing varies by listing. Measure your dog's meal before you buy so kibble is not stranded in corners.",
+      },
+      {
+        heading: "Material and cleaning",
+        body: "Plastic mazes are cheap tests but can hold smell. Stainless (Feedoo) and ceramic (LE TAUCI) are easier for daily dishwashing. Silicone inserts (Keegud) wash separately from the host bowl.",
+      },
+      {
+        heading: "Stability",
+        body: "Fast eaters shove bowls. Prefer non-slip bases, heavier ceramic, or double-wall stainless. Flipping and resource guarding are stop signs for maze bowls.",
+      },
+      {
+        heading: "Slow feeder vs mess feeder",
+        body: "A maze slows gulping. An elevated splash tray (Neater Feeder) controls spills. Buy the tool that matches the actual mess: speed, spills, or both.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best slow feeder dog bowl for fast eaters?",
+        answer:
+          "Start with a cheap maze like the Outward Hound or MateeyLife 2-pack to see if your dog accepts it. For a durable medium-dog bowl, choose Feedoo stainless (~2 cups). For small breeds who do well with ceramic weight, choose LE TAUCI. To keep your current bowl, use a Keegud silicone insert.",
+      },
+      {
+        question: "Do slow feeder bowls actually work?",
+        answer:
+          "They work when the maze or humps force longer foraging and your dog will still finish the meal. They will not fix food guarding or bowl-flipping. Size the capacity to the meal so food is reachable.",
+      },
+      {
+        question: "Stainless, ceramic, or plastic?",
+        answer:
+          "Plastic is the low-cost test. Stainless (Feedoo) is sturdy and dishwasher-friendly for daily use. Ceramic (LE TAUCI) adds weight so small dogs shove it less. Match material to how often you wash and how hard your dog is on bowls.",
+      },
+      {
+        question: "Can I turn my regular bowl into a slow feeder?",
+        answer:
+          "Yes — the Keegud food-grade silicone insert presses into bowls in roughly the 5.5–7 inch bottom-diameter range (listing fit guidance) and can be cut to fit. Confirm your bowl size on the listing before you buy.",
+      },
+      {
+        question: "When should I buy a Neater Feeder instead?",
+        answer:
+          "When the problem is spills and dribbles more than speed. Neater Feeder Deluxe elevates stainless bowls over a splash tray. It is not a maze slow feeder — pair or choose based on whether you need spill control, slower eating, or both.",
+      },
+    ],
+  },
+
 ];
 
 export function getGuide(slug: string): Guide | undefined {
