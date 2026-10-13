@@ -1,6 +1,7 @@
 // Revamp content gate (run in `npm run build`). Fails on: Top 10 size != 10, missing/invalid picks,
 // missing tier, pros outside 2-4, cons outside 1-3, Top 10 slugs that don't exist.
 import { products } from "../src/data/products";
+import { guides as _gg } from "../src/data/guides";
 import { categories } from "../src/data/categories";
 import { TOP10, PICKS, getTopPicks, ADDONS, TOP10_SHORT } from "../src/data/top10";
 import * as fs from "fs";
@@ -87,6 +88,22 @@ for (const p of products) {
     if (/\b(kills|repels)\b/i.test(t) && !/\b(listed|per the listing|label)\b/i.test(t)) errors.push(`${p.slug}: unhedged kill/repel claim: ${t.slice(0, 70)}`);
   }
   if (p.brand === "Seresto" && !/EPA has received incident reports/.test(p.summary)) errors.push(`${p.slug}: Seresto entry missing the EPA incident-report note`);
+}
+// Gift-guide copy gate: picks must exist, no seller voice, no "under $N" phrasing, hedged (no absolute claims).
+{
+  for (const g of _gg) {
+    if (!g.slug.startsWith("gifts-")) continue;
+    const _slugs = new Set(products.map((p) => p.slug));
+    for (const pk of g.picks ?? []) if (!_slugs.has(pk.productSlug)) errors.push(`guide ${g.slug}: pick not found ${pk.productSlug}`);
+    for (const q of g.quickPicks ?? []) if (!_slugs.has(q.productSlug)) errors.push(`guide ${g.slug}: quick pick not found ${q.productSlug}`);
+    const texts = [g.title, g.description, ...g.sections.map((s) => s.body), ...(g.faqs ?? []).map((f) => f.answer), ...(g.quickPicks ?? []).map((q) => q.note), ...(g.picks ?? []).flatMap((p) => [p.verdict, p.suits, p.skip ?? "", ...p.pros, ...p.cons])];
+    for (const t of texts) {
+      const m = t.match(/\b(you'll love|effortlessly|say goodbye|maximize|guaranteed|the best ever|perfect for everyone|must-have)\b/i);
+      if (m) errors.push(`guide ${g.slug}: seller voice / unhedged "${m[0]}": ${t.slice(0, 60)}`);
+      if (/under\s*\$|\$\s*\d/i.test(t)) errors.push(`guide ${g.slug}: price phrasing: ${t.slice(0, 60)}`);
+      if (/\b(kills|repels|cures|treats anxiety)\b/i.test(t)) errors.push(`guide ${g.slug}: unhedged health claim: ${t.slice(0, 60)}`);
+    }
+  }
 }
 for (const w of warnings) console.warn(`validate-revamp: WARNING ${w}`);
 if (errors.length) {
