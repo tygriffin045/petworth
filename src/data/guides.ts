@@ -52,8 +52,8 @@ export const guides: Guide[] = [
       {
         productSlug: "furhaven-orthopedic-dog-bed",
         heading: "For older dogs: Furhaven Orthopedic Sofa-Style Bed",
-        verdict: "A foam bed with a bolster rim for a chin rest. It may suit an older dog that is reluctant to lie down on hard floors. Size it by the weight chart, not the photos.",
-        pros: ["Foam base with a bolster rim", "Wide range of sizes", "Removable cover on most versions"],
+        verdict: "Per the listing, a foam bed with a bolster rim for a chin rest. It may suit an older dog that is reluctant to lie down on hard floors. Size it by the weight chart, not the photos.",
+        pros: ["Foam base with a bolster rim", "Wide range of sizes", "Removable cover on most versions, per the listing"],
         cons: ["Chewers may destroy the cover", "Foam density varies by size"],
         suits: "Senior dogs and dogs that sleep curled up.",
         skip: "Dogs that shred fabric.",
@@ -64,7 +64,7 @@ export const guides: Guide[] = [
         verdict: "A stuffable rubber chew that many owners freeze with wet food for quiet time. Sizes are coded by dog weight. No toy is indestructible, so supervise power chewers.",
         pros: ["Stuffable for enrichment", "Size options by dog weight"],
         cons: ["Extreme chewers can still destroy it", "Needs regular washing"],
-        suits: "Almost any dog, and a safe gift when you don't know the dog well.",
+        suits: "Almost any dog, and an easy gift when you don't know the dog well.",
       },
       {
         productSlug: "blue-9-balance-harness",
@@ -87,15 +87,15 @@ export const guides: Guide[] = [
       {
         productSlug: "chuckit-ultra-ball",
         heading: "Budget-friendly stocking stuffer: Chuckit! Ultra Ball",
-        verdict: "A solid rubber fetch ball without tennis-ball felt. It fits Chuckit launchers. Size up and inspect it often, since any shredded ball may be a choking risk.",
-        pros: ["High bounce", "Fits Chuckit launchers"],
+        verdict: "A solid rubber fetch ball without tennis-ball felt. Per the listing, it fits Chuckit launchers. Size up and inspect it often, since any shredded ball may be a choking risk.",
+        pros: ["High bounce", "Fits Chuckit launchers, per the listing"],
         cons: ["Easy to lose in tall grass", "Not a chew toy"],
         suits: "Dogs that love fetch.",
       },
       {
         productSlug: "joytale-reflective-dog-leash-for-medium",
         heading: "Budget-friendly practical gift: Joytale Reflective Leash",
-        verdict: "A 6 ft nylon leash with reflective stitching and a padded handle. It may be a useful upgrade for early and late walks in winter.",
+        verdict: "Per the listing, a 6 ft nylon leash with reflective stitching and a padded handle. It may be a useful upgrade for early and late walks in winter.",
         pros: ["Reflective stitching", "Padded handle", "Spinning metal snap"],
         cons: ["No traffic handle near the clip", "Won't fix pulling on its own"],
         suits: "Owners of medium and large dogs who walk in the dark.",
@@ -103,7 +103,7 @@ export const guides: Guide[] = [
       {
         productSlug: "juwantu-dog-toothbrush-set-of-8",
         heading: "Budget-friendly add-on: JUWANTU Toothbrush Set",
-        verdict: "Eight dual-headed soft-bristle brushes in two head sizes. A small, practical add-on to a bigger gift. Toothpaste isn't included, so dog-safe toothpaste would need to be bought separately.",
+        verdict: "Per the listing, eight dual-headed soft-bristle brushes in two head sizes. A small, practical add-on to a bigger gift. Toothpaste isn't included, so dog-safe toothpaste would need to be bought separately.",
         pros: ["Eight brushes", "Two head sizes on each brush"],
         cons: ["Toothpaste not included", "Basic plastic handles"],
         suits: "Owners starting a tooth-brushing routine.",
