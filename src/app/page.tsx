@@ -70,6 +70,12 @@ export default function HomePage() {
             >
               Harness buying guide
             </Link>
+            <Link
+              href="/guides/gifts-for-dog-owners"
+              className="rounded-full border border-emerald-800/50 bg-white/70 px-5 py-2.5 text-sm font-semibold text-emerald-900 hover:bg-white"
+            >
+              Gifts for dog owners
+            </Link>
           </div>
         </div>
       </section>

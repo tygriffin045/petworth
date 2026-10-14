@@ -9,6 +9,7 @@ import {
 } from "@/data/products";
 import { getCategory } from "@/data/categories";
 import { AffiliateButton } from "@/components/AffiliateButton";
+import { StickyAffiliateBar } from "@/components/StickyAffiliateBar";
 import { TierBadge } from "@/components/TierBadge";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { ProductCard } from "@/components/ProductCard";
@@ -247,6 +248,13 @@ export default async function ProductPage({ params }: Props) {
           </div>
         </section>
       )}
+      <StickyAffiliateBar
+        productSlug={product.slug}
+        productName={product.name}
+        amazonAsin={product.amazonAsin}
+        amazonQuery={product.amazonQuery}
+        placement="product_sticky"
+      />
     </div>
   );
 }
