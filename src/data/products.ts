@@ -3689,7 +3689,7 @@ export const products: Product[] = [
     featured: false,
     pros: ["Two shapes in one pack", "Softer puppy formula, per the listing", "Made in the USA, per the listing"],
     cons: ["Replace once pieces break off", "Bacon flavor may stain light carpet"],
-    whoItsFor: "Teething puppies that need a legal chew.",
+    whoItsFor: "Teething puppies that need a chew they're allowed to have.",
     skipIf: "Your dog is a power chewer adult; size up to a standard Benebone.",
     specs: [{"label": "Pack", "value": "Wishbone + dental chew"}, {"label": "Flavor", "value": "Bacon (per the listing)"}],
     relatedSlugs: ["kong-puppy-natural-rubber-teething-chew", "midwest-puppy-starter-kit-medium"],
