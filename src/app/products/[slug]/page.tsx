@@ -15,6 +15,7 @@ import { AffiliateNote } from "@/components/AffiliateNote";
 import { ProductCard } from "@/components/ProductCard";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
+import ImagePlaceholder from "../../../components/ImagePlaceholder";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -129,15 +130,7 @@ export default async function ProductPage({ params }: Props) {
               priority
             />
           ) : (
-            <div className="flex h-full items-center justify-center p-8 text-center text-slate-500">
-              <p className="text-sm">
-                <span className="font-medium text-slate-700">
-                  {product.name}
-                </span>
-                <br />
-                Check the live Amazon listing for current photos and details.
-              </p>
-            </div>
+            <ImagePlaceholder name={product.name} category={product.category} fill />
           )}
         </div>
 
