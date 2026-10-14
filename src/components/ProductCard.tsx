@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Product } from "@/data/types";
 import { getCategory } from "@/data/categories";
 import { AffiliateButton } from "@/components/AffiliateButton";
+import ImagePlaceholder from "./ImagePlaceholder";
 
 export function ProductCard({
   product,
@@ -31,11 +32,7 @@ export function ProductCard({
               priority={priority}
             />
           ) : (
-            <div
-              className="absolute inset-0 opacity-40 mix-blend-overlay bg-[radial-gradient(circle_at_30%_20%,white,transparent_45%)]"
-              role="img"
-              aria-label={product.imageAlt}
-            />
+            <ImagePlaceholder name={product.name} category={product.category} fill />
           )}
           <span className="absolute left-3 top-3 rounded-full bg-emerald-700 px-2.5 py-0.5 text-[11px] font-semibold text-white shadow-sm">
             {product.bestFor}

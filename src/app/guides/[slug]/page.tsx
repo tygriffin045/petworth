@@ -11,6 +11,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { AffiliateNote } from "@/components/AffiliateNote";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
+import ImagePlaceholder from "../../../components/ImagePlaceholder";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -168,7 +169,7 @@ export default async function GuidePage({ params }: Props) {
                 href={`/products/${product.slug}`}
                 className="relative block aspect-square overflow-hidden rounded-xl bg-slate-50"
               >
-                {product.imageUrl && (
+                {product.imageUrl ? ((
                   <Image
                     src={product.imageUrl}
                     alt={product.imageAlt}
@@ -177,7 +178,7 @@ export default async function GuidePage({ params }: Props) {
                     className="object-contain p-3"
                     priority={i === 0}
                   />
-                )}
+                )) : (<ImagePlaceholder name={product.name} category={product.category} fill />)}
               </Link>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-emerald-700">

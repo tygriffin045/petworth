@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Product } from "@/data/types";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { TierBadge } from "@/components/TierBadge";
+import ImagePlaceholder from "./ImagePlaceholder";
 
 /** Compact home-page Top 10: category label, name, tier, one pro + one con, and the CTA. */
 export function HomeTop10({ items, labels }: { items: Product[]; labels: { name: string; href: string }[] }) {
@@ -10,11 +11,11 @@ export function HomeTop10({ items, labels }: { items: Product[]; labels: { name:
     <ol className="mt-6 grid gap-3 md:grid-cols-2" data-top10 data-home-top10>
       {items.map((p, i) => (
         <li key={p.slug} className="flex gap-3 rounded-xl border border-stone-200 bg-white p-3 shadow-sm">
-          {p.imageUrl && (
+          {p.imageUrl ? ((
             <Link href={`/products/${p.slug}`} className="relative block h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-stone-50">
               <Image src={p.imageUrl} alt={p.imageAlt} fill sizes="64px" className="object-contain p-1" priority={i < 2} />
             </Link>
-          )}
+          )) : (<ImagePlaceholder name={p.name} category={p.category} compact className="shrink-0 rounded-lg" style={{ width: 64, height: 64 }} />)}
           <div className="min-w-0 flex-1">
             <Link href={labels[i].href} className="text-[11px] font-semibold uppercase tracking-wider text-[#a84c1f] hover:underline">
               {labels[i].name}
