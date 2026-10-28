@@ -1,3 +1,4 @@
+import { BreadcrumbLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
@@ -14,6 +15,7 @@ export const metadata: Metadata = pageMetadata({
 export default function GuidesPage() {
   return (
     <div className="space-y-8">
+      <BreadcrumbLd trail={[["Guides", "/guides"]]} />
       <div>
         <h1 className="font-serif text-4xl text-stone-900">Buying guides</h1>
         <p className="mt-2 text-lg text-stone-600">

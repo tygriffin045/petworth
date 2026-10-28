@@ -1,3 +1,4 @@
+import { BreadcrumbLd, ItemListLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
@@ -41,6 +42,8 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div className="space-y-8">
+      <BreadcrumbLd trail={[[category.name, `/category/${category.slug}`]]} />
+      <ItemListLd name={`Top ${items.length} ${category.name}`} items={items.map((p) => ({ name: p.name, path: `/products/${p.slug}` }))} />
       <div>
         <p className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
           Category

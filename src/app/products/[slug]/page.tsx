@@ -1,3 +1,4 @@
+import { fit } from "@/lib/meta-fit";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,19 +33,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? product.imageUrl
       : `${SITE_URL}${product.imageUrl}`
     : `${SITE_URL}/og/default.jpg`;
+  const title = fit(product.name, 55);
+  const description = fit(`${product.bestFor}. ${product.tagline}`, 160);
   return {
-    title: product.name,
-    description: `${product.bestFor}. ${product.tagline}`,
+    title,
+    description,
     openGraph: {
-      title: product.name,
-      description: `${product.bestFor}. ${product.tagline}`,
+      type: "website",
+      title,
+      description,
       url: `/products/${slug}`,
       images: [{ url: imageAbs, alt: product.imageAlt || product.name }],
     },
     twitter: {
       card: "summary_large_image",
-      title: product.name,
-      description: `${product.bestFor}. ${product.tagline}`,
+      title,
+      description,
       images: [imageAbs],
     },
     alternates: { canonical: `/products/${slug}` },

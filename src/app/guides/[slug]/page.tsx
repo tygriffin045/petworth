@@ -1,3 +1,4 @@
+import { ItemListLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -31,7 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
   return {
     ...meta,
-    openGraph: { ...meta.openGraph, type: "article" },
+    openGraph: {
+      ...meta.openGraph, type: "article" },
   };
 }
 
@@ -96,6 +98,7 @@ export default async function GuidePage({ params }: Props) {
 
   return (
     <article className="space-y-10">
+      <ItemListLd name={guide.title} items={guide.productSlugs.flatMap((s) => { const p = getProduct(s); return p ? [{ name: p.name, path: `/products/${p.slug}` }] : []; })} />
       <JsonLd data={faqLd ? [articleLd, breadcrumbLd, faqLd] : [articleLd, breadcrumbLd]} />
       <header className="max-w-3xl">
         <p className="text-xs text-slate-500">

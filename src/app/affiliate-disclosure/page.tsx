@@ -1,3 +1,4 @@
+import { BreadcrumbLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 
@@ -11,6 +12,7 @@ export const metadata: Metadata = pageMetadata({
 export default function AffiliateDisclosurePage() {
   return (
     <div className="mx-auto max-w-3xl space-y-6">
+      <BreadcrumbLd trail={[["Affiliate disclosure", "/affiliate-disclosure"]]} />
       <h1 className="font-serif text-4xl text-stone-900">
         Affiliate disclosure
       </h1>

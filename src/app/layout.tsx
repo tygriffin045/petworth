@@ -20,7 +20,7 @@ const serif = Source_Serif_4({
 const SITE_URL = "https://pet.theworthguide.com";
 const SITE_TITLE = "PetWorth — Honest picks for happier pets";
 const SITE_DESCRIPTION =
-  "Editorial pet gear picks for dogs and cats: beds and crates, cat trees, feeders and fountains, harnesses, grooming, toys, travel carriers, litter, training gear, and wellness accessories. Clear Amazon Associates disclosure — no invented scores.";
+  "Editorial pet gear picks for dogs and cats: beds, crates, cat trees, feeders, harnesses, grooming, toys, and litter. Clear disclosure — no invented scores.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

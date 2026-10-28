@@ -1,3 +1,4 @@
+import { BreadcrumbLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
@@ -14,6 +15,7 @@ export const metadata: Metadata = pageMetadata({
 export default function CompareIndexPage() {
   return (
     <div className="space-y-8">
+      <BreadcrumbLd trail={[["Compare", "/compare"]]} />
       <div>
         <p className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
           Comparisons

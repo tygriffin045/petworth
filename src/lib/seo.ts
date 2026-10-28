@@ -1,3 +1,4 @@
+import { fit } from "@/lib/meta-fit";
 import type { Metadata } from "next";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
@@ -17,6 +18,8 @@ export function pageMetadata({
   title: string;
   description: string;
 }): Metadata {
+  title = fit(title, 55);
+  description = fit(description, 160);
   return {
     title,
     description,

@@ -1,3 +1,4 @@
+import { BreadcrumbLd, ItemListLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
@@ -37,6 +38,8 @@ export default async function HubPage({ params }: Props) {
 
   return (
     <div className="space-y-10">
+      <BreadcrumbLd trail={[["Best for", "/best"], [hub.title, `/best/${hub.slug}`]]} />
+      <ItemListLd name={hub.title} items={hub.productSlugs.flatMap((s) => { const p = getProduct(s); return p ? [{ name: p.name, path: `/products/${p.slug}` }] : []; })} />
       <header className="max-w-3xl">
         <p className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
           {hub.eyebrow}

@@ -1,3 +1,4 @@
+import { BreadcrumbLd } from "@/components/SeoLd";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
@@ -36,6 +37,7 @@ export default async function ComparePage({ params }: Props) {
 
   return (
     <div className="space-y-10">
+      <BreadcrumbLd trail={[["Compare", "/compare"], [table.title, `/compare/${table.slug}`]]} />
       <header className="max-w-3xl">
         <p className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
           Comparison
