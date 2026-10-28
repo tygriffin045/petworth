@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGuide, guides } from "@/data/guides";
 import { getProduct } from "@/data/products";
+import { getGuideTop10, getRelatedGuideList } from "@/lib/guide-links";
 import { ProductCard } from "@/components/ProductCard";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { StickyAffiliateBar } from "@/components/StickyAffiliateBar";
@@ -38,6 +39,8 @@ export default async function GuidePage({ params }: Props) {
   const { slug } = await params;
   const guide = getGuide(slug);
   if (!guide) notFound();
+  const top10 = getGuideTop10(guide);
+  const relatedGuides = getRelatedGuideList<typeof guide>(guide, 3);
 
   const mentioned = guide.productSlugs
     .map((s) => getProduct(s))
@@ -290,6 +293,29 @@ export default async function GuidePage({ params }: Props) {
           placement="guide_sticky"
             showAfterId="quick-picks"
         />
+      )}
+
+      {(relatedGuides.length > 0 || top10) && (
+        <section className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6">
+          <h2 className="font-serif text-2xl text-slate-900">Keep reading</h2>
+          <ul className="mt-3 space-y-2 text-sm">
+            {top10 && (
+              <li>
+                <Link href={top10.href} className="font-medium text-slate-900 underline underline-offset-2">
+                  {top10.label}
+                </Link>
+              </li>
+            )}
+            {relatedGuides.map((g) => (
+              <li key={g.slug}>
+                Guide:{" "}
+                <Link href={`/guides/${g.slug}`} className="underline underline-offset-2">
+                  {g.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       <p className="text-sm text-slate-500">
